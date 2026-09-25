@@ -184,3 +184,299 @@ a {
   }
 
 }
+/* =========================================================
+   HISC — HUMAN INC.: STRUCTURAL COHERENCE
+   Prototype
+   ========================================================= */
+
+.hisc-page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 56px 96px;
+}
+
+
+/* ---------- Header ---------- */
+
+.page-header {
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 52px 0 96px;
+}
+
+.back-home {
+  align-self: flex-start;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+}
+
+.book-heading {
+  max-width: 700px;
+}
+
+.territory-label {
+  margin: 0 0 22px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--hisc);
+}
+
+.book-heading h1 {
+  margin: 0 0 28px;
+  font-size: clamp(2.5rem, 5vw, 4.8rem);
+  line-height: 0.98;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.book-status {
+  margin: 0 0 16px;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.book-foundation {
+  max-width: 620px;
+  margin: 0 0 34px;
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.preorder-link {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+}
+
+
+/* ---------- Explore the Book ---------- */
+
+.book-experience {
+  border-top: 1px solid rgba(38, 35, 31, 0.22);
+  padding-top: 88px;
+}
+
+.experience-intro {
+  max-width: 670px;
+  margin-bottom: 104px;
+}
+
+.experience-intro h2 {
+  margin: 0 0 28px;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.experience-intro p {
+  margin: 0 0 18px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+
+/* ---------- Arcs ---------- */
+
+.book-arc {
+  margin-bottom: 112px;
+}
+
+.arc-title {
+  margin: 0 0 40px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--hisc);
+}
+
+
+/* ---------- Chapters ---------- */
+
+.chapter {
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+}
+
+.chapter:last-child {
+  border-bottom: 1px solid rgba(38, 35, 31, 0.2);
+}
+
+.chapter summary {
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+  padding: 24px 0;
+  cursor: pointer;
+  list-style: none;
+
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.chapter summary::-webkit-details-marker {
+  display: none;
+}
+
+.chapter summary::after {
+  content: "+";
+  margin-left: auto;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.chapter[open] summary::after {
+  content: "−";
+}
+
+.chapter-number {
+  min-width: 34px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+
+/* ---------- Excerpts ---------- */
+
+.chapter-excerpt {
+  max-width: 700px;
+  padding: 12px 0 54px 48px;
+}
+
+.chapter-excerpt p {
+  margin: 0 0 26px;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.chapter-excerpt p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ---------- Corpus ---------- */
+
+.corpus-chapters {
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+}
+
+.corpus-chapters p {
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(38, 35, 31, 0.2);
+
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+
+.corpus-chapters span {
+  display: inline-block;
+  width: 38px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+
+/* ---------- Chapter 19 ---------- */
+
+.chapter-closed {
+  padding: 24px 0;
+}
+
+.closed-title {
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+
+/* ---------- Return ---------- */
+
+.book-return {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid rgba(38, 35, 31, 0.22);
+  padding-top: 36px;
+  margin-top: 40px;
+}
+
+.book-return > a:first-child {
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+
+/* ---------- HISC Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .hisc-page {
+    padding: 0 24px 64px;
+  }
+
+  .page-header {
+    min-height: auto;
+    padding: 36px 0 96px;
+  }
+
+  .book-heading {
+    margin-top: 104px;
+  }
+
+  .book-heading h1 {
+    font-size: clamp(2.5rem, 12vw, 3.8rem);
+  }
+
+  .book-experience {
+    padding-top: 64px;
+  }
+
+  .experience-intro {
+    margin-bottom: 80px;
+  }
+
+  .book-arc {
+    margin-bottom: 88px;
+  }
+
+  .chapter summary,
+  .closed-title {
+    font-size: 1.15rem;
+  }
+
+  .chapter-excerpt {
+    padding: 10px 0 44px;
+  }
+
+  .chapter-excerpt p {
+    font-size: 1rem;
+  }
+
+  .book-return {
+    align-items: flex-start;
+    gap: 28px;
+  }
+
+}
