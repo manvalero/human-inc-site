@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>HIOBS — Human Inc. Observations</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="hiobs-page">
+
+    <header class="hiobs-header">
+
+      <a class="back-home" href="index.html">HUMAN INC.</a>
+
+      <div class="hiobs-heading">
+        <p class="territory-label hiobs-label">HIOBS</p>
+
+        <h1>Human Inc.<br>Observations</h1>
+
+        <p class="hiobs-intro">
+          An ongoing body of observations of the twelve structural
+          necessities across different real-world subjects.
+        </p>
+      </div>
+
+    </header>
+
+
+    <section class="observation-field">
+
+      <div class="observe-control">
+
+        <span class="observe-label">OBSERVE BY</span>
+
+        <div class="observe-toggle">
+          <button
+            class="observe-mode active"
+            data-mode="subject"
+            type="button"
+          >
+            Subject
+          </button>
+
+          <span aria-hidden="true">·</span>
+
+          <button
+            class="observe-mode"
+            data-mode="system"
+            type="button"
+          >
+            System
+          </button>
+        </div>
+
+      </div>
+
+
+      <div id="hiobs-selector" class="hiobs-selector">
+        <!-- Subjects or systems will appear here -->
+      </div>
+
+
+      <div id="hiobs-grid" class="hiobs-grid">
+        <!-- The twelve observation panels will appear here -->
+      </div>
+
+    </section>
+
+
+    <footer class="hiobs-return">
+      <a href="index.html">Return to Human Inc.</a>
+    </footer>
+
+  </main>
+
+
+  <script src="hiobs-data.js"></script>
+  <script src="hiobs.js"></script>
+
+</body>
+</html>
