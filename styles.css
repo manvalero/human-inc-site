@@ -594,23 +594,109 @@ a {
 }
 
 
-/* ---------- System Palette — Prototype ---------- */
+/* ---------- HIOBS System Chromatic Identities ---------- */
 
 :root {
-  --system-nervous: #b8ad79;
-  --system-circulatory: #9d2038;
-  --system-digestive: #9a543d;
-  --system-muscular: #b62d38;
-  --system-respiratory: #cbc2dc;
-  --system-sensory: #1d1d1b;
-  --system-integumentary: #d6bb8d;
-  --system-immune: #e8dfb5;
-  --system-skeletal: #e3d9aa;
-  --system-lymphatic: #dce8e2;
-  --system-endocrine: #c77a32;
-  --system-reproductive: #a84d70;
+
+  --nervous-bg: #e7decf;
+  --nervous-text: #55524c;
+
+  --circulatory-bg: #640301;
+  --circulatory-text: #f0e4dd;
+
+  --digestive-bg: #834019;
+  --digestive-text: #ead6b8;
+
+  --muscular-bg: #700303;
+  --muscular-text: #dfc2b3;
+
+  --respiratory-bg: #d0c6df;
+  --respiratory-text: #59577e;
+
+  --sensory-bg: #000000;
+  --sensory-text: #f3e6cc;
+
+  --integumentary-bg: #ecb488;
+  --integumentary-text: #68452e;
+
+  --immune-bg: #fdfdfd;
+  --immune-text: #4d7888;
+
+  --skeletal-bg: #f7eee5;
+  --skeletal-text: #814e4e;
+
+  --lymphatic-bg: #eff5f5;
+  --lymphatic-text: #70757a;
+
+  --endocrine-bg: #a56c02;
+  --endocrine-text: #ead8ab;
+
+  --reproductive-bg: #460822;
+  --reproductive-text: #d49aaa;
 }
 
+
+/* ---------- System Assignment ---------- */
+
+.system-nervous {
+  --card-bg: var(--nervous-bg);
+  --card-text: var(--nervous-text);
+}
+
+.system-circulatory {
+  --card-bg: var(--circulatory-bg);
+  --card-text: var(--circulatory-text);
+}
+
+.system-digestive {
+  --card-bg: var(--digestive-bg);
+  --card-text: var(--digestive-text);
+}
+
+.system-muscular {
+  --card-bg: var(--muscular-bg);
+  --card-text: var(--muscular-text);
+}
+
+.system-respiratory {
+  --card-bg: var(--respiratory-bg);
+  --card-text: var(--respiratory-text);
+}
+
+.system-sensory {
+  --card-bg: var(--sensory-bg);
+  --card-text: var(--sensory-text);
+}
+
+.system-integumentary {
+  --card-bg: var(--integumentary-bg);
+  --card-text: var(--integumentary-text);
+}
+
+.system-immune {
+  --card-bg: var(--immune-bg);
+  --card-text: var(--immune-text);
+}
+
+.system-skeletal {
+  --card-bg: var(--skeletal-bg);
+  --card-text: var(--skeletal-text);
+}
+
+.system-lymphatic {
+  --card-bg: var(--lymphatic-bg);
+  --card-text: var(--lymphatic-text);
+}
+
+.system-endocrine {
+  --card-bg: var(--endocrine-bg);
+  --card-text: var(--endocrine-text);
+}
+
+.system-reproductive {
+  --card-bg: var(--reproductive-bg);
+  --card-text: var(--reproductive-text);
+}
 
 /* ---------- Grid ---------- */
 
