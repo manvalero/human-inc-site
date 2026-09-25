@@ -480,3 +480,261 @@ a {
   }
 
 }
+/* =========================================================
+   HIOBS — PROTOTYPE
+   ========================================================= */
+
+.hiobs-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 64px 72px 112px;
+}
+
+
+/* ---------- Header ---------- */
+
+.hiobs-header {
+  padding-bottom: 88px;
+}
+
+.hiobs-heading {
+  max-width: 680px;
+  margin-top: 96px;
+}
+
+.hiobs-label {
+  color: var(--hiobs);
+}
+
+.hiobs-heading h1 {
+  margin: 0 0 28px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.hiobs-intro {
+  max-width: 600px;
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+
+/* ---------- Observe By ---------- */
+
+.observation-field {
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+  padding-top: 48px;
+}
+
+.observe-control {
+  display: flex;
+  align-items: baseline;
+  gap: 28px;
+  margin-bottom: 44px;
+}
+
+.observe-label {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+}
+
+.observe-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.observe-mode {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.observe-mode.active {
+  color: var(--ink);
+  border-bottom: 1px solid currentColor;
+}
+
+
+/* ---------- Selector ---------- */
+
+.hiobs-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-bottom: 56px;
+}
+
+.hiobs-selector-button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 4px 0;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.hiobs-selector-button.active {
+  color: var(--ink);
+  border-bottom: 1px solid currentColor;
+}
+
+
+/* ---------- System Palette — Prototype ---------- */
+
+:root {
+  --system-nervous: #b8ad79;
+  --system-circulatory: #9d2038;
+  --system-digestive: #9a543d;
+  --system-muscular: #b62d38;
+  --system-respiratory: #cbc2dc;
+  --system-sensory: #1d1d1b;
+  --system-integumentary: #d6bb8d;
+  --system-immune: #e8dfb5;
+  --system-skeletal: #e3d9aa;
+  --system-lymphatic: #dce8e2;
+  --system-endocrine: #c77a32;
+  --system-reproductive: #a84d70;
+}
+
+
+/* ---------- Grid ---------- */
+
+.hiobs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.observation-card {
+  border-top: 6px solid var(--ink);
+  background: rgba(255, 255, 255, 0.18);
+  min-height: 150px;
+}
+
+.system-nervous       { border-color: var(--system-nervous); }
+.system-circulatory   { border-color: var(--system-circulatory); }
+.system-digestive     { border-color: var(--system-digestive); }
+.system-muscular      { border-color: var(--system-muscular); }
+.system-respiratory   { border-color: var(--system-respiratory); }
+.system-sensory       { border-color: var(--system-sensory); }
+.system-integumentary { border-color: var(--system-integumentary); }
+.system-immune        { border-color: var(--system-immune); }
+.system-skeletal      { border-color: var(--system-skeletal); }
+.system-lymphatic     { border-color: var(--system-lymphatic); }
+.system-endocrine     { border-color: var(--system-endocrine); }
+.system-reproductive  { border-color: var(--system-reproductive); }
+
+
+/* ---------- Card ---------- */
+
+.observation-card-trigger {
+  width: 100%;
+  min-height: 145px;
+  border: 0;
+  background: transparent;
+  padding: 22px;
+  text-align: left;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.observation-card-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.observation-system {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.observation-function {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.observation-subject {
+  margin-top: 36px;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.observation-card-body {
+  display: none;
+  padding: 4px 22px 30px;
+}
+
+.observation-card.open .observation-card-body {
+  display: block;
+}
+
+.observation-card-body p {
+  margin: 0;
+  white-space: pre-line;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
+/* ---------- Return ---------- */
+
+.hiobs-return {
+  margin-top: 96px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+}
+
+.hiobs-return a {
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+
+/* ---------- HIOBS Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .hiobs-page {
+    padding: 36px 24px 72px;
+  }
+
+  .hiobs-heading {
+    margin-top: 80px;
+  }
+
+  .hiobs-header {
+    padding-bottom: 64px;
+  }
+
+  .observe-control {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hiobs-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
