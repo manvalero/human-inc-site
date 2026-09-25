@@ -190,9 +190,9 @@ a {
    ========================================================= */
 
 .hisc-page {
-  max-width: 1040px;
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 0 56px 96px;
+  padding: 0 72px 112px;
 }
 
 
@@ -203,7 +203,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 52px 0 96px;
+  padding: 72px 0 112px;
 }
 
 .back-home {
