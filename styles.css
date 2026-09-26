@@ -638,64 +638,64 @@ a {
 
 /* ---------- System Assignment ---------- */
 
-.system-nervous {
-  --card-bg: var(--nervous-bg);
-  --card-text: var(--nervous-text);
+.observation-card.system-nervous {
+  background: var(--nervous-bg);
+  color: var(--nervous-text);
 }
 
-.system-circulatory {
-  --card-bg: var(--circulatory-bg);
-  --card-text: var(--circulatory-text);
+.observation-card.system-circulatory {
+  background: var(--circulatory-bg);
+  color: var(--circulatory-text);
 }
 
-.system-digestive {
-  --card-bg: var(--digestive-bg);
-  --card-text: var(--digestive-text);
+.observation-card.system-digestive {
+  background: var(--digestive-bg);
+  color: var(--digestive-text);
 }
 
-.system-muscular {
-  --card-bg: var(--muscular-bg);
-  --card-text: var(--muscular-text);
+.observation-card.system-muscular {
+  background: var(--muscular-bg);
+  color: var(--muscular-text);
 }
 
-.system-respiratory {
-  --card-bg: var(--respiratory-bg);
-  --card-text: var(--respiratory-text);
+.observation-card.system-respiratory {
+  background: var(--respiratory-bg);
+  color: var(--respiratory-text);
 }
 
-.system-sensory {
-  --card-bg: var(--sensory-bg);
-  --card-text: var(--sensory-text);
+.observation-card.system-sensory {
+  background: var(--sensory-bg);
+  color: var(--sensory-text);
 }
 
-.system-integumentary {
-  --card-bg: var(--integumentary-bg);
-  --card-text: var(--integumentary-text);
+.observation-card.system-integumentary {
+  background: var(--integumentary-bg);
+  color: var(--integumentary-text);
 }
 
-.system-immune {
-  --card-bg: var(--immune-bg);
-  --card-text: var(--immune-text);
+.observation-card.system-immune {
+  background: var(--immune-bg);
+  color: var(--immune-text);
 }
 
-.system-skeletal {
-  --card-bg: var(--skeletal-bg);
-  --card-text: var(--skeletal-text);
+.observation-card.system-skeletal {
+  background: var(--skeletal-bg);
+  color: var(--skeletal-text);
 }
 
-.system-lymphatic {
-  --card-bg: var(--lymphatic-bg);
-  --card-text: var(--lymphatic-text);
+.observation-card.system-lymphatic {
+  background: var(--lymphatic-bg);
+  color: var(--lymphatic-text);
 }
 
-.system-endocrine {
-  --card-bg: var(--endocrine-bg);
-  --card-text: var(--endocrine-text);
+.observation-card.system-endocrine {
+  background: var(--endocrine-bg);
+  color: var(--endocrine-text);
 }
 
-.system-reproductive {
-  --card-bg: var(--reproductive-bg);
-  --card-text: var(--reproductive-text);
+.observation-card.system-reproductive {
+  background: var(--reproductive-bg);
+  color: var(--reproductive-text);
 }
 
 /* ---------- Grid ---------- */
