@@ -835,7 +835,6 @@ opacity: 0.72;
 .territory-nav {
   display: flex;
   align-items: center;
-  gap: 28px;
   flex-wrap: wrap;
 
   font-family: var(--sans);
@@ -843,16 +842,20 @@ opacity: 0.72;
   font-weight: 600;
   letter-spacing: 0.13em;
 }
-
 .territory-nav a {
   color: var(--muted);
   text-decoration: none;
   transition: color 180ms ease,
               opacity 180ms ease;
-}
 
+  margin-right: 34px;
+}
+.territory-nav a:last-child {
+  margin-right: 0;
+}
 .territory-nav a:first-child {
   color: var(--ink);
+  margin-right: 52px;
 }
 
 .territory-nav a.active {
