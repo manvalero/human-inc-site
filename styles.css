@@ -707,8 +707,8 @@ a {
 }
 
 .observation-card {
-  border-top: 6px solid var(--ink);
-  background: rgba(255, 255, 255, 0.18);
+  background: var(--card-bg);
+  color: var(--card-text);
   min-height: 150px;
 }
 
@@ -735,7 +735,7 @@ a {
   background: transparent;
   padding: 22px;
   text-align: left;
-  color: var(--ink);
+  color: inherit;
   cursor: pointer;
 }
 
@@ -756,7 +756,8 @@ a {
 .observation-function {
   font-family: var(--sans);
   font-size: 0.7rem;
-  color: var(--muted);
+ color: inherit;
+opacity: 0.72;
 }
 
 .observation-subject {
