@@ -710,6 +710,8 @@ a {
   background: var(--card-bg);
   color: var(--card-text);
   min-height: 150px;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .system-nervous       { border-color: var(--system-nervous); }
