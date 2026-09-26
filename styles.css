@@ -827,3 +827,52 @@ opacity: 0.72;
   }
 
 }
+
+/* =========================================================
+   HUMAN INC. TERRITORY NAVIGATION
+   ========================================================= */
+
+.territory-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+}
+
+.territory-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 180ms ease,
+              opacity 180ms ease;
+}
+
+.territory-nav a:first-child {
+  color: var(--ink);
+}
+
+.territory-nav a.active {
+  color: var(--ink);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 4px;
+}
+
+.territory-nav a:hover {
+  color: var(--ink);
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .territory-nav {
+    gap: 16px 20px;
+    font-size: 0.68rem;
+  }
+
+}
