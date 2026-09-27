@@ -1011,3 +1011,27 @@ opacity: 0.72;
   }
 
 }
+
+/* =========================================================
+   SUBTLE SITE TEXTURE — TEST
+   ========================================================= */
+
+body {
+  background-color: #f4efe6;
+
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(120, 105, 85, 0.018) 0px,
+      rgba(120, 105, 85, 0.018) 1px,
+      transparent 1px,
+      transparent 6px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(120, 105, 85, 0.014) 0px,
+      rgba(120, 105, 85, 0.014) 1px,
+      transparent 1px,
+      transparent 7px
+    );
+}
