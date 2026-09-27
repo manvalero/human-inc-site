@@ -40,9 +40,9 @@ a {
 /* ---------- Home ---------- */
 
 .home {
-  max-width: var(--max-width);
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 0 56px 80px;
+  padding: 64px 72px 112px;
 }
 
 
