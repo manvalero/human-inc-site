@@ -1,6 +1,6 @@
-:root {
-  --canvas: #f3eee4;
-  --ink: #26231f;
+  :root {
+  --canvas: #f4efe6;
+  --ink: #302c27;
   --muted: #6d675f;
 
 --hisc: #b56f2c;
@@ -1018,7 +1018,7 @@ opacity: 0.72;
    ========================================================= */
 
 body {
-  background-color: #f4efe6;
+  background-color: var(--canvas);
 
   background-image:
     repeating-linear-gradient(
