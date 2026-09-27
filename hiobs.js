@@ -151,15 +151,11 @@ function renderGrid() {
 
         <div class="observation-card-heading">
 
-          <span class="observation-system">
-            ${item.system}
-          </span>
+  <span class="observation-system">
+    ${item.system}
+  </span>
 
-          <span class="observation-function">
-            ${item.function}
-          </span>
-
-        </div>
+</div>
 
         <div class="observation-subject">
           ${item.subject}
