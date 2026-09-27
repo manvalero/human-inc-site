@@ -1285,3 +1285,48 @@ body {
   min-height: 78px;
   padding: 20px 22px;
 }
+
+/* =========================================================
+   HIFF FIRST SCREEN — TIGHTER
+   ========================================================= */
+
+.hiff-page .page-header {
+  min-height: auto;
+  padding: 0 0 28px;
+}
+
+.hiff-heading {
+  margin-top: 36px;
+}
+
+.hiff-heading h1 {
+  margin-bottom: 20px;
+  font-size: clamp(2.5rem, 4.4vw, 4rem);
+}
+
+.hiff-heading h2 {
+  margin-bottom: 12px;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+}
+
+.hiff-intro {
+  line-height: 1.55;
+}
+
+.hiff-actions {
+  margin-top: 18px;
+}
+
+.hiff-services {
+  padding-top: 22px;
+}
+
+.hiff-services > h2 {
+  margin-bottom: 18px;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+}
+
+.hiff-service summary {
+  min-height: 66px;
+  padding: 16px 20px;
+}
