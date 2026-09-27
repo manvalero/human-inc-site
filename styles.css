@@ -717,7 +717,7 @@ a {
 }
 
 .observation-card.open {
-  height: 700px;
+  height: 850px;
 }
 
 .system-nervous       { border-color: var(--system-nervous); }
