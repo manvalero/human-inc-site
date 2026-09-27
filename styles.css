@@ -920,3 +920,27 @@ opacity: 0.72;
   }
 
 }
+/* =========================================================
+   TERRITORY TOP BAR
+   ========================================================= */
+
+.territory-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.territory-topbar .territory-nav {
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+
+  .territory-topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+}
