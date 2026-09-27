@@ -1114,3 +1114,135 @@ body {
   }
 
 }
+
+/* =========================================================
+   HIFF ACTIONS + SERVICES
+   ========================================================= */
+
+.hiff-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 36px;
+}
+
+.hiff-primary-action,
+.hiff-secondary-action,
+.service-book {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.hiff-primary-action {
+  border: 1px solid currentColor;
+  padding: 13px 18px;
+}
+
+.hiff-secondary-action,
+.service-book {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+}
+
+
+/* ---------- Services ---------- */
+
+.hiff-services {
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+  padding-top: 42px;
+}
+
+.hiff-services > h2 {
+  margin: 0 0 32px;
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+.hiff-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.hiff-service {
+  border: 1px solid rgba(38, 35, 31, 0.22);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.hiff-service summary {
+  min-height: 92px;
+  padding: 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  cursor: pointer;
+  list-style: none;
+
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+}
+
+.hiff-service summary::-webkit-details-marker {
+  display: none;
+}
+
+.service-symbol {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hiff-service[open] .service-symbol {
+  transform: rotate(45deg);
+}
+
+.hiff-service-body {
+  padding: 0 24px 28px;
+}
+
+.hiff-service-body p {
+  margin: 0 0 20px;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.service-audience {
+  font-family: var(--sans);
+  font-size: 0.72rem !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.05em;
+  opacity: 0.72;
+}
+
+.service-book {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .hiff-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hiff-service-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
