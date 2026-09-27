@@ -705,14 +705,19 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+  align-items: start;
 }
 
 .observation-card {
   background: var(--card-bg);
   color: var(--card-text);
-  min-height: 150px;
+ height: 150px;
   border-radius: 14px;
   overflow: hidden;
+}
+
+.observation-card.open {
+  height: 460px;
 }
 
 .system-nervous       { border-color: var(--system-nervous); }
