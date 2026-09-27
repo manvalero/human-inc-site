@@ -961,3 +961,51 @@ opacity: 0.72;
   }
 
 }
+
+/* =========================================================
+   HOME THRESHOLD
+   ========================================================= */
+
+.home .threshold {
+  min-height: 68vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.home .threshold h1 {
+  margin: 0 0 52px;
+
+  font-size: clamp(3.5rem, 7vw, 6.5rem);
+  line-height: 0.95;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+
+.home .home-intro {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.home .home-intro p {
+  margin: 0 0 1.35rem;
+
+  font-size: clamp(1.25rem, 2vw, 1.9rem);
+  line-height: 1.35;
+}
+
+@media (max-width: 800px) {
+
+  .home .threshold {
+    min-height: 70vh;
+  }
+
+  .home .threshold h1 {
+    margin-bottom: 38px;
+  }
+
+}
