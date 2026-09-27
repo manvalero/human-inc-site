@@ -879,3 +879,44 @@ opacity: 0.72;
   }
 
 }
+/* =========================================================
+   TERRITORY FOOTER
+   ========================================================= */
+
+.territory-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+
+  margin-top: 96px;
+  padding-top: 34px;
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+}
+
+.footer-nav {
+  flex: 1;
+}
+
+.territory-action {
+  flex-shrink: 0;
+
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+
+  .territory-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+}
