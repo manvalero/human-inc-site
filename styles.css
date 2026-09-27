@@ -1036,3 +1036,81 @@ body {
       transparent 7px
     );
 }
+
+/* =========================================================
+   HIFF
+   ========================================================= */
+
+.hiff-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 64px 72px 112px;
+}
+
+.hiff-heading {
+  max-width: 760px;
+  margin-top: 96px;
+}
+
+.hiff-heading h1 {
+  margin: 0 0 42px;
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.hiff-heading h2 {
+  margin: 0 0 22px;
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.hiff-intro {
+  max-width: 650px;
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+.hiff-offer {
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+  padding-top: 72px;
+}
+
+.hiff-offer h2 {
+  max-width: 680px;
+  margin: 0 0 34px;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.hiff-formats {
+  margin: 0 0 44px;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+}
+
+@media (max-width: 800px) {
+
+  .hiff-page {
+    padding: 36px 24px 72px;
+  }
+
+  .hiff-heading {
+    margin-top: 80px;
+  }
+
+  .hiff-offer {
+    padding-top: 52px;
+  }
+
+}
