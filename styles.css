@@ -1022,15 +1022,15 @@ body {
   background-image:
     repeating-linear-gradient(
       0deg,
-      rgba(120, 105, 85, 0.018) 0px,
-      rgba(120, 105, 85, 0.018) 1px,
+      rgba(120, 105, 85, 0.026) 0px,
+      rgba(120, 105, 85, 0.026) 1px,
       transparent 1px,
       transparent 6px
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(120, 105, 85, 0.014) 0px,
-      rgba(120, 105, 85, 0.014) 1px,
+      rgba(120, 105, 85, 0.021) 0px,
+      rgba(120, 105, 85, 0.021) 1px,
       transparent 1px,
       transparent 7px
     );
