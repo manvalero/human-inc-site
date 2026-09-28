@@ -1562,3 +1562,17 @@ body {
   margin-top: 64px;
   margin-bottom: 42px;
 }
+
+/* ---------- Contact interest ---------- */
+
+.contact-interest {
+  grid-column: 1 / -1;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-interest select {
+  width: min(420px, 100%);
+  text-align: center;
+  text-align-last: center;
+}
