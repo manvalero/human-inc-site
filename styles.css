@@ -1539,3 +1539,16 @@ body {
   }
 
 }
+
+/* =========================================================
+   CONTACT — HEADER SPACING FIX
+   ========================================================= */
+
+.contact-page .page-header {
+  min-height: auto;
+  padding-bottom: 0;
+}
+
+.contact-heading {
+  margin-top: 64px;
+}
