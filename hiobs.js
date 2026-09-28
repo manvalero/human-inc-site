@@ -106,7 +106,7 @@ function renderSelector() {
 
     button.type = "button";
     button.className = "hiobs-selector-button";
-    button.textContent = value;
+    button.textContent = value.replace(" System", "");
 
     if (value === currentSelection) {
       button.classList.add("active");
