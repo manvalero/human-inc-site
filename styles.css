@@ -1552,3 +1552,18 @@ body {
 .contact-heading {
   margin-top: 48px;
 }
+
+
+/* =========================================================
+   HISC FIRST VIEWPORT — BRING BOOK INTO VIEW
+   ========================================================= */
+
+.hisc-page .page-header {
+  min-height: auto;
+  padding-bottom: 0;
+}
+
+.hisc-page .book-heading {
+  margin-top: 64px;
+  margin-bottom: 42px;
+}
