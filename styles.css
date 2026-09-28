@@ -1015,29 +1015,51 @@ opacity: 0.72;
 }
 
 /* =========================================================
-   SUBTLE SITE TEXTURE — TEST
+   HUMAN INC. LINEN FIELD
    ========================================================= */
 
 body {
   background-color: var(--canvas);
 
   background-image:
+
+    /* fine horizontal fibers */
     repeating-linear-gradient(
       0deg,
-      rgba(120, 105, 85, 0.026) 0px,
-      rgba(120, 105, 85, 0.026) 1px,
+      rgba(106, 88, 68, 0.020) 0px,
+      rgba(106, 88, 68, 0.020) 1px,
       transparent 1px,
-      transparent 6px
+      transparent 4px,
+      rgba(106, 88, 68, 0.012) 4px,
+      rgba(106, 88, 68, 0.012) 5px,
+      transparent 5px,
+      transparent 9px
     ),
+
+    /* fine vertical fibers */
     repeating-linear-gradient(
       90deg,
-      rgba(120, 105, 85, 0.021) 0px,
-      rgba(120, 105, 85, 0.021) 1px,
+      rgba(106, 88, 68, 0.017) 0px,
+      rgba(106, 88, 68, 0.017) 1px,
       transparent 1px,
-      transparent 7px
+      transparent 5px,
+      rgba(106, 88, 68, 0.010) 5px,
+      rgba(106, 88, 68, 0.010) 6px,
+      transparent 6px,
+      transparent 11px
+    ),
+
+    /* slight irregularity so it does not read as a grid */
+    repeating-linear-gradient(
+      2deg,
+      transparent 0px,
+      transparent 15px,
+      rgba(125, 103, 78, 0.010) 15px,
+      rgba(125, 103, 78, 0.010) 16px,
+      transparent 16px,
+      transparent 31px
     );
 }
-
 /* =========================================================
    HIFF
    ========================================================= */
