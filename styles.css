@@ -1390,3 +1390,152 @@ body {
 .chapter-detail {
   border-color: var(--accent);
 }
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+.contact-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 64px 72px 112px;
+}
+
+.contact-heading {
+  max-width: 700px;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+
+.contact-heading h1 {
+  margin: 0 0 28px;
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.contact-heading p {
+  max-width: 610px;
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.65;
+}
+
+
+/* ---------- Form ---------- */
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px 28px;
+  max-width: 850px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-field-wide {
+  grid-column: 1 / -1;
+}
+
+.contact-field label {
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.optional {
+  margin-left: 8px;
+  font-weight: 400;
+  opacity: 0.55;
+}
+
+.contact-field input,
+.contact-field select,
+.contact-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  border: 0;
+  border-bottom: 1px solid rgba(95, 43, 48, 0.5);
+
+  padding: 12px 0;
+
+  background: transparent;
+
+  color: var(--ink);
+
+  font-family: inherit;
+  font-size: 1rem;
+
+  outline: none;
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-field input:focus,
+.contact-field select:focus,
+.contact-field textarea:focus {
+  border-bottom-color: var(--accent);
+}
+
+.contact-submit {
+  grid-column: 1 / -1;
+  margin-top: 12px;
+}
+
+.contact-submit button {
+  padding: 13px 22px;
+
+  border: 1px solid var(--accent);
+
+  background: transparent;
+  color: var(--accent);
+
+  font-family: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+
+  letter-spacing: 0.13em;
+
+  cursor: pointer;
+}
+
+.contact-submit button:hover {
+  background: var(--accent);
+  color: var(--canvas);
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .contact-page {
+    padding: 36px 24px 72px;
+  }
+
+  .contact-heading {
+    margin-top: 64px;
+    margin-bottom: 52px;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-field-wide,
+  .contact-submit {
+    grid-column: auto;
+  }
+
+}
