@@ -152,7 +152,7 @@ function renderGrid() {
         <div class="observation-card-heading">
 
   <span class="observation-system">
-    ${item.system}
+    ${item.system.replace(" System", "")}
   </span>
 
 </div>
