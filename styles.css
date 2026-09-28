@@ -1,6 +1,7 @@
   :root {
   --canvas: #f4efe6;
   --ink: #302c27;
+  --accent: #5f2b30;
   --muted: #6d675f;
 
 --hisc: #b56f2c;
@@ -1329,4 +1330,40 @@ body {
 .hiff-service summary {
   min-height: 66px;
   padding: 16px 20px;
+}
+
+/* =========================================================
+   HUMAN INC. STRUCTURAL ACCENT — TEST
+   ========================================================= */
+
+/* Primary outlined actions */
+.territory-action,
+.hiff-primary-action {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* HIFF service structure */
+.hiff-service {
+  border-color: var(--accent);
+}
+
+.hiff-services {
+  border-top-color: var(--accent);
+}
+
+.service-symbol,
+.service-book {
+  color: var(--accent);
+}
+
+/* Shared footer rule */
+.territory-footer {
+  border-top-color: var(--accent);
+}
+
+/* HISC expandable structure */
+.book-arc,
+.chapter-detail {
+  border-color: var(--accent);
 }
