@@ -196,6 +196,16 @@
 
       </form>
 
+      <div class="contact-success" id="contact-success" hidden>
+
+  <h2>The conversation has begun.</h2>
+
+  <p>
+    We’ve received your message and will read it carefully.
+    Thank you. We’ll be in touch after we’ve reviewed what you shared.
+  </p>
+
+</div>
     </section>
 
 
@@ -215,25 +225,101 @@
 
   <script>
 
-    const params = new URLSearchParams(window.location.search);
-    const interest = params.get("interest");
+  /* -----------------------------------------
+     Preselect interest from the incoming link
+     ----------------------------------------- */
 
-    const interestField = document.getElementById("interest");
+  const params = new URLSearchParams(window.location.search);
+  const interest = params.get("interest");
 
-    const validInterests = [
-      "conversation",
-      "keynote",
-      "workshop",
-      "executive",
-      "hiobs",
-      "other"
-    ];
+  const interestField = document.getElementById("interest");
 
-    if (interest && validInterests.includes(interest)) {
-      interestField.value = interest;
+  const validInterests = [
+    "conversation",
+    "keynote",
+    "workshop",
+    "executive",
+    "preorder",
+    "other"
+  ];
+
+  if (interest && validInterests.includes(interest)) {
+    interestField.value = interest;
+  }
+
+
+  /* -----------------------------------------
+     Submit to Web3Forms without leaving HISITE
+     ----------------------------------------- */
+
+  const form = document.getElementById("contact-form");
+  const successMessage = document.getElementById("contact-success");
+  const submitButton = form.querySelector('button[type="submit"]');
+
+  form.addEventListener("submit", async function(event) {
+
+    event.preventDefault();
+
+    submitButton.disabled = true;
+    submitButton.textContent = "SENDING";
+
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+
+      const response = await fetch(
+        "https://api.web3forms.com/submit",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: json
+        }
+      );
+
+      const result = await response.json();
+
+      if (result.success) {
+
+        form.reset();
+
+        form.hidden = true;
+        successMessage.hidden = false;
+
+        successMessage.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+
+      } else {
+
+        submitButton.disabled = false;
+        submitButton.textContent = "SEND";
+
+        alert(
+          "Your message could not be sent. Please try again."
+        );
+
+      }
+
+    } catch (error) {
+
+      submitButton.disabled = false;
+      submitButton.textContent = "SEND";
+
+      alert(
+        "Your message could not be sent. Please try again."
+      );
+
     }
 
-  </script>
+  });
+
+</script>
 
 </body>
 </html>
