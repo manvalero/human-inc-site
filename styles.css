@@ -1576,3 +1576,29 @@ body {
   text-align: center;
   text-align-last: center;
 }
+
+/* =========================================================
+   CONTACT — SUCCESS
+   ========================================================= */
+
+.contact-success {
+  max-width: 720px;
+  padding: 54px 0;
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+
+.contact-success h2 {
+  margin: 0 0 24px;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.contact-success p {
+  max-width: 620px;
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
