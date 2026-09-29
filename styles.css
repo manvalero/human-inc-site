@@ -1602,3 +1602,56 @@ body {
   font-size: 1.12rem;
   line-height: 1.7;
 }
+
+/* =========================================================
+   LEGAL FOOTER — QUIET
+   ========================================================= */
+
+.legal-footer {
+  margin-top: 18px;
+  padding-top: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 26px;
+
+  font-size: 0.58rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+
+  color: var(--muted);
+  opacity: 0.72;
+}
+
+.legal-nav {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.legal-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.legal-nav a + a::before {
+  content: "·";
+  margin-right: 14px;
+}
+
+.legal-nav a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 800px) {
+
+  .legal-footer {
+    flex-wrap: wrap;
+    gap: 8px 18px;
+  }
+
+  .legal-nav {
+    flex-wrap: wrap;
+  }
+
+}
