@@ -1927,10 +1927,13 @@ body {
   }
 
   .about-founder-photo img {
-    aspect-ratio: 6 / 5;
-    object-position: center 46%;
-  }
-
+  display: block;
+  width: 100%;
+  aspect-ratio: 6 / 5;
+  object-fit: cover;
+  object-position: center 46%;
+  border-radius: 14px;
+}
   .about-founder-copy {
     padding-top: 0;
   }
