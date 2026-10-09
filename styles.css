@@ -598,6 +598,18 @@ a {
   border-bottom: 1px solid currentColor;
 }
 
+/* ---------- Bottom Observe Controls ---------- */
+
+.hiobs-bottom-controls {
+  margin-top: 72px;
+  padding-top: 42px;
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+}
+
+.hiobs-bottom-controls .hiobs-selector {
+  margin-bottom: 0;
+}
+
 
 /* ---------- HIOBS System Chromatic Identities ---------- */
 
@@ -825,6 +837,11 @@ opacity: 0.72;
 /* ---------- HIOBS Mobile ---------- */
 
 @media (max-width: 800px) {
+
+  .hiobs-bottom-controls {
+  margin-top: 56px;
+  padding-top: 36px;
+}
 
   .hiobs-page {
     padding: 36px 24px 72px;
