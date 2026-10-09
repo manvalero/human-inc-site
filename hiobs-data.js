@@ -826,7 +826,7 @@ const HIOBS_DATA = [
     "system": "Lymphatic System",
     "systemSlug": "lymphatic",
     "function": "Procurement & Supply Chain",
-    "observation": "Toolserver had hosted Wikimedia volunteer tools since 2005. From mid 2013, maintainers had until June 2014 to migrate them to Tool Labs, with technical support, reminders and account extensions.\n\nThe migration guide told maintainers to confirm a tool worked in Tool Labs before stopping its Toolserver processes, downloading remaining data and leaving redirects to the new location.\n\nOn July 1, 2014, accounts expired. Wikimedia Deutschland then opened a list for missing tools, broken redirects and orphaned projects others might maintain. Backups were available through August.\n\nWhat remained continued to clear."
+    "observation": "Toolserver had hosted Wikimedia volunteer tools since 2005. From mid 2013, maintainers had until June 2014 to migrate them to Tool Labs, with technical support, reminders and account extensions.\n\nThe migration guide told maintainers to confirm a tool worked in Tool Labs before stopping its Toolserver processes, downloading remaining data and leaving redirects to the new location.\n\nOn June 30, 2014, Wikimedia Deutschland opened a list for missing tools, broken redirects and orphaned projects others might maintain. Most Toolserver accounts expired the next day. Backups were available through August.\n\nWhat remained continued to clear."
   },
   {
     "subject": "Wikipedia",
