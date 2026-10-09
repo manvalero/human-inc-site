@@ -861,7 +861,7 @@ const HIOBS_DATA = [
     "system": "Digestive System",
     "systemSlug": "digestive",
     "function": "Finance",
-    "observation": "In 2004, Siemens acquired USFilter in a $993 million deal, a water-treatment business assembled from numerous companies.\n\nBy 2012, Siemens separated its water activities. Automation, controls, instrumentation, and drives remained; mechanical, biological, and chemical water treatment was marked for release.\n\nIn 2014, Siemens sold the treatment business for €612 million.\n\nThe sorting continued after intake."
+    "observation": "In 2004, Siemens acquired USFilter’s water equipment and services businesses, part of a company assembled through numerous acquisitions. Siemens initially reported the price as $993 million.\n\nBy 2012, Siemens separated its water activities. Automation, controls, instrumentation, and drives remained; mechanical, biological, and chemical water treatment was marked for release.\n\nIn January 2014, Siemens sold the treatment business, reporting preliminary consideration of €612 million.\n\nThe sorting continued after intake."
   },
   {
     "subject": "Siemens AG",
