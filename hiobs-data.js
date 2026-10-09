@@ -805,7 +805,7 @@ const HIOBS_DATA = [
     "system": "Integumentary System",
     "systemSlug": "integumentary",
     "function": "Customer Care",
-    "observation": "Beginning in 2004, Wikimedia’s email response system developed separate channels for article concerns, permissions, and inquiries from article subjects.\n\nIn February 2021, the Foundation received a complaint about inaccuracies in a German Wikipedia article. Within five hours, a volunteer corrected them and opened a talk page discussion. The Foundation directed future concerns there.\n\nIn the same year, a biography subject sought changes through the Volunteer Response Team, then the Foundation. The changes were not made. The subject was directed to the article’s talk page and biography process.\n\nEach concern settled where it could be held."
+    "observation": "Beginning in 2004, Wikimedia’s email response system developed queues for general inquiries, including concerns from article subjects, and for permissions.\n\nIn February 2021, the Foundation received a complaint about inaccuracies in a German Wikipedia article. Within five hours, a volunteer corrected them and opened a talk page discussion. The Foundation directed future concerns there.\n\nIn the same year, a biography subject sought changes through the Volunteer Response Team, then the Foundation. The changes were not made. The subject was directed to the article’s talk page and biography process.\n\nEach concern settled where it could be held."
   },
   {
     "subject": "Wikipedia",
