@@ -733,7 +733,8 @@ a {
 }
 
 .observation-card.open {
-  height: 850px;
+  height: auto;
+  min-height: 850px;
 }
 
 .system-nervous       { border-color: var(--system-nervous); }
@@ -817,6 +818,66 @@ opacity: 0.72;
   line-height: 1.7;
 }
 
+
+
+/* ---------- HIOBS Observation Sources ---------- */
+/* Source links use the existing system-specific card colors. */
+
+.observation-sources {
+  margin-top: 32px;
+  padding-top: 18px;
+  border-top: 1px solid currentColor;
+}
+
+.observation-sources-title {
+  margin: 0 0 16px;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.observation-sources-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 16px;
+}
+
+.observation-source-link {
+  display: inline-block;
+  color: inherit;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.observation-source-link:hover,
+.observation-source-link:focus-visible {
+  opacity: 0.75;
+}
+
+.observation-source-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.observation-source-meta {
+  display: block;
+  margin-top: 3px;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  line-height: 1.5;
+  opacity: 0.78;
+  overflow-wrap: anywhere;
+}
 
 /* ---------- Return ---------- */
 
