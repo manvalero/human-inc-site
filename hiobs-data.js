@@ -1001,7 +1001,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "In 1945, Hans Wilsdorf established the Hans Wilsdorf Foundation and transferred ownership of Rolex to it.\n\nFor the next fifteen years, Wilsdorf remained Rolex’s managing director and a board member, until his death in 1960.\n\nToday, the Foundation is the sole shareholder of Rolex Holding SA, with members of its board linking the Foundation to Rolex’s governance.\n\nThe condition settled while its source was still present."
+    "observation": "In 1945, Hans Wilsdorf established the Hans Wilsdorf Foundation to secure the future of Rolex beyond his lifetime.\n\nFor the next fifteen years, Wilsdorf remained Rolex’s managing director and a board member, until his death in 1960. His shares then passed to the Foundation.\n\nToday, the Foundation is the sole shareholder of Rolex Holding SA, with members of its board linking the Foundation to Rolex’s governance.\n\nThe condition settled while its source was still present."
   },
   {
     "subject": "ROLEX",
