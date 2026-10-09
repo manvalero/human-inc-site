@@ -854,7 +854,7 @@ const HIOBS_DATA = [
     "system": "Circulatory System",
     "systemSlug": "circulatory",
     "function": "Human Resources",
-    "observation": "In 2012, Siemens regional companies sent 29 participants from 13 European countries to Berlin for an apprenticeship lasting three and a half years.\n\nDuring the program, they returned four months to their home Siemens companies.\n\nIn January 2016, 24 of the original 29 graduated. All 24 received Siemens jobs in their home countries.\n\nThe route was built for return."
+    "observation": "In 2012, Siemens regional companies sent 29 participants from 13 European countries to Berlin for an apprenticeship lasting three and a half years.\n\nDuring the program, they spent two months at Siemens companies in their home countries.\n\nIn January 2016, 24 of the original 29 graduated. All 24 received Siemens job offers in their home countries.\n\nThe route was built for return."
   },
   {
     "subject": "Siemens AG",
