@@ -966,7 +966,7 @@ const HIOBS_DATA = [
     "system": "Sensory System",
     "systemSlug": "sensory",
     "function": "Marketing",
-    "observation": "Rolex was registered in 1908, when British retailers traditionally put their own names on watch dials and resisted displaying the supplier’s name.\n\nHans Wilsdorf began by placing Rolex on one watch in every six. Later, the name appeared on two, then three, four, and eventually five of every six watches.\n\nFrom the introduction of the Oyster in 1926 onward, every watch would carry the Rolex name.\n\nPresence became constant."
+    "observation": "Rolex was registered in 1908, when British retailers traditionally put their own names on watch dials and resisted displaying the supplier’s name.\n\nHans Wilsdorf began by placing Rolex on one watch in every six. Later, the name appeared on two, then three, four, and eventually five of every six watches.\n\nThe Oyster was introduced in 1926. By 1927, Rolex announced that every watch leaving its works would carry the name on its dial, case and movement.\n\nPresence became constant."
   },
   {
     "subject": "ROLEX",
