@@ -938,7 +938,7 @@ const HIOBS_DATA = [
     "system": "Circulatory System",
     "systemSlug": "circulatory",
     "function": "Human Resources",
-    "observation": "By 1984, employment across Swiss watchmaking had contracted by roughly two thirds, falling from about 90,000 people in 1970 to just over 30,000.\n\nFrom 1964 to 1988, Montres Rolex SA in Geneva grew from 498 employees to 970, an increase of about 95%.\n\nDuring that expansion, Rolex opened in house apprenticeships in Geneva in 1984. Rolex Bienne began taking apprentices in 1989. That passage has remained open for more than four decades."
+    "observation": "By 1984, employment across Swiss watchmaking had contracted by roughly two thirds, falling from about 90,000 people in 1970 to just over 30,000.\n\nFrom 1964 to 1988, the workforce of Montres Rolex SA in Geneva grew by about 95%.\n\nDuring that expansion, Rolex opened in house apprenticeships in Geneva in 1984. Rolex Bienne began taking apprentices in 1989. That passage has remained open for more than four decades."
   },
   {
     "subject": "ROLEX",
