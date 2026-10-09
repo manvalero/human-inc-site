@@ -1,4 +1,8 @@
-const selector = document.getElementById("hiobs-selector");
+const selectors = [
+  document.getElementById("hiobs-selector"),
+  document.getElementById("hiobs-selector-bottom")
+].filter(Boolean);
+
 const grid = document.getElementById("hiobs-grid");
 const modeButtons = document.querySelectorAll(".observe-mode");
 
@@ -87,9 +91,7 @@ function getObservations(mode, selection) {
    SELECTOR
    ========================================================= */
 
-function renderSelector() {
-
-  selector.innerHTML = "";
+function renderSelectors() {
 
   const values = selectorValues();
 
@@ -100,28 +102,48 @@ function renderSelector() {
     currentSelection = values[0];
   }
 
-  values.forEach(value => {
+  selectors.forEach(selector => {
 
-    const button = document.createElement("button");
+    selector.innerHTML = "";
 
-    button.type = "button";
-    button.className = "hiobs-selector-button";
-    button.textContent = value.replace(" System", "");
+    values.forEach(value => {
 
-    if (value === currentSelection) {
-      button.classList.add("active");
-    }
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "hiobs-selector-button";
+      button.textContent = value.replace(" System", "");
 
-    button.addEventListener("click", () => {
-      currentSelection = value;
-      renderSelector();
-      renderGrid();
+      if (value === currentSelection) {
+        button.classList.add("active");
+      }
+
+      button.addEventListener("click", () => {
+
+        currentSelection = value;
+
+        renderSelectors();
+        renderGrid();
+
+        /*
+          If the visitor selects from the bottom controls,
+          bring the new observation set into view.
+        */
+        if (selector.id === "hiobs-selector-bottom") {
+          grid.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        }
+
+      });
+
+      selector.appendChild(button);
+
     });
 
-    selector.appendChild(button);
   });
-}
 
+}
 
 /* =========================================================
    OBSERVATION FIELD
@@ -192,15 +214,18 @@ modeButtons.forEach(button => {
     currentMode = button.dataset.mode;
     currentSelection = null;
 
-    modeButtons.forEach(btn =>
-      btn.classList.remove("active")
-    );
+    modeButtons.forEach(btn => {
+      btn.classList.toggle(
+        "active",
+        btn.dataset.mode === currentMode
+      );
+    });
 
-    button.classList.add("active");
-
-    renderSelector();
+    renderSelectors();
     renderGrid();
+
   });
+
 });
 
 
@@ -208,5 +233,5 @@ modeButtons.forEach(button => {
    INITIAL STATE
    ========================================================= */
 
-renderSelector();
+renderSelectors();
 renderGrid();
