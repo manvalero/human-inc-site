@@ -763,7 +763,7 @@ const HIOBS_DATA = [
     "system": "Nervous System",
     "systemSlug": "nervous",
     "function": "Executive Leadership",
-    "observation": "On October 4, 2011, contributors to the Italian language Wikipedia replaced its articles with a statement opposing proposed legislation.\n\nThe Wikimedia Foundation could restore access.\n\nIt did not.\n\nExecutive Director Sue Gardner said the Italian Wikipedians understood the legislation and its effect on their project better than the Foundation did.\n\nTwo days later, Italian Wikipedia restored its articles.\n\nThe override stayed unused. The local signal led."
+    "observation": "On October 4, 2011, contributors to the Italian language Wikipedia replaced its articles with a statement opposing proposed legislation.\n\nThe Wikimedia Foundation could restore access.\n\nIt did not.\n\nExecutive Director Sue Gardner said the Italian Wikipedians understood the proposed law’s implications for their project, and that the Foundation trusted their judgment.\n\nTwo days later, Italian Wikipedia restored its articles.\n\nThe override stayed unused. The local signal led."
   },
   {
     "subject": "Wikipedia",
