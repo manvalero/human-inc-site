@@ -190,6 +190,51 @@ function renderGrid() {
       </div>
     `;
 
+    // Public citations are separate from canonical observation wording.
+    // Missing source sets leave non-Rolex cards unchanged.
+    const publicSources =
+      typeof HIOBS_SOURCES !== "undefined"
+        ? HIOBS_SOURCES[item.subject]?.[item.systemSlug]
+        : null;
+
+    if (Array.isArray(publicSources) && publicSources.length) {
+      const footer = document.createElement("section");
+      footer.className = "observation-sources";
+      footer.setAttribute("aria-label", "Sources for this observation");
+
+      const heading = document.createElement("h3");
+      heading.className = "observation-sources-title";
+      heading.textContent = "Sources";
+      footer.appendChild(heading);
+
+      const list = document.createElement("ul");
+      list.className = "observation-sources-list";
+
+      publicSources.forEach(source => {
+        const entry = document.createElement("li");
+
+        const link = document.createElement("a");
+        link.className = "observation-source-link";
+        link.href = source.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = source.title;
+        entry.appendChild(link);
+
+        const meta = document.createElement("span");
+        meta.className = "observation-source-meta";
+        meta.textContent = source.date
+          ? `${source.publisher} · ${source.date}`
+          : source.publisher;
+        entry.appendChild(meta);
+
+        list.appendChild(entry);
+      });
+
+      footer.appendChild(list);
+      card.querySelector(".observation-card-body").appendChild(footer);
+    }
+
     const trigger = card.querySelector(
       ".observation-card-trigger"
     );
