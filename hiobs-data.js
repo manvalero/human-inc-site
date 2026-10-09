@@ -833,7 +833,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "In 2013, Wikimedia stewards proposed a global review of advanced rights holders with no edits or administrative actions for two years. Consultation clarified the threshold: two years of inactivity without community review.\n\nThe first review examined 844 public wikis. Stewards took no action where an active local review process was already in place; elsewhere, the global process applied.\n\nInactive rights holders were notified and communities given time to respond. Communities could retain the rights or conduct their own review; without a suitable response, stewards could refer the matter back locally or remove the rights.\n\nThe global condition entered only where no local one existed."
+    "observation": "In 2013, Wikimedia stewards proposed a global review of advanced rights holders with no edits or administrative actions for two years. Consultation clarified the threshold: two years of inactivity without community review.\n\nThe first review examined 844 public wikis. Stewards did not intervene where active local review processes, arbitration committees or special exemptions applied. On other eligible wikis without local review, the global process applied.\n\nInactive rights holders were notified and communities given time to respond. Communities could retain the rights or conduct their own review; without a suitable response, stewards could refer the matter back locally or remove the rights.\n\nThe global condition entered only where no local one existed."
   },
   {
     "subject": "Wikipedia",
