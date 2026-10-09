@@ -770,7 +770,7 @@ const HIOBS_DATA = [
     "system": "Circulatory System",
     "systemSlug": "circulatory",
     "function": "Human Resources",
-    "observation": "By 2007, Portuguese and German Wikipedia communities had created local support for newcomers.\n\nOn February 27, 2012, English Wikipedia opened the Teahouse with experienced editors as hosts. New editors were actively invited in.\n\nIn its first three months, hosts sent 7,339 invitations. Of 586 participants, most were new editors.\n\nWhen manual outreach became difficult to sustain, automated invitations were introduced while experienced editors kept answering questions.\n\nOn September 26, 2022, Wikimedia deployed its structured mentor list to all Wikipedias.\n\nSupport kept finding new ways to reach."
+    "observation": "By 2007, Portuguese and German Wikipedia communities had created local support for newcomers.\n\nOn February 27, 2012, English Wikipedia opened the Teahouse with experienced editors as hosts. New editors were actively invited in.\n\nIn its first three months, hosts sent 7,339 invitations. Of 586 participants, most were new editors.\n\nWhen manual outreach became difficult to sustain, automated invitations were introduced while experienced editors kept answering questions.\n\nIn October 2022, Wikimedia deployed its structured mentor list across wikis using Growth mentorship.\n\nSupport kept finding new ways to reach."
   },
   {
     "subject": "Wikipedia",
