@@ -777,7 +777,7 @@ const HIOBS_DATA = [
     "system": "Digestive System",
     "systemSlug": "digestive",
     "function": "Finance",
-    "observation": "In 2012, the Wikimedia Foundation redirected planned spending across several programs.\n\nIn India, direct spending shifted to a grant through the Centre for Internet and Society. Existing fellowships wound down while support for individual projects continued through grants.\n\nPlanned Catalyst spending in the Middle East and North Africa did not proceed.\n\nThe changes left about $974,000 unspent. A portion was reallocated to individual grants and the CIS grant in India; the rest remained outside those reallocations.\n\nNot all planned spending followed its original path."
+    "observation": "In 2012, the Wikimedia Foundation redirected planned spending across several programs.\n\nIn India, direct spending shifted to a grant through the Centre for Internet and Society. Existing fellowships wound down while support for individual projects continued through grants.\n\nPlanned Catalyst spending in the Middle East and North Africa did not proceed.\n\nIn its 2013–14 annual plan, Wikimedia attributed about $974,000 in projected underspending to these changes. A portion was reallocated to individual grants and the CIS grant in India.\n\nNot all planned spending followed its original path."
   },
   {
     "subject": "Wikipedia",
