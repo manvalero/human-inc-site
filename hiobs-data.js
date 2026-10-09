@@ -931,7 +931,7 @@ const HIOBS_DATA = [
     "system": "Nervous System",
     "systemSlug": "nervous",
     "function": "Executive Leadership",
-    "observation": "In 2011, Rolex changed its executive structure as its activities expanded in Switzerland and abroad. Gian Riccardo Marini, who had led Rolex Italy since 2000, became CEO in Geneva.\n\nAt the same time, Rolex created a new executive role for its 23 foreign affiliates. Daniel Neidhart, already responsible for China, Taiwan and the Philippines, took the role while remaining based in Hong Kong. Later that year, he received signing authority within Rolex Holding.\n\nCoherence gained another point of integration."
+    "observation": "In 2011, Rolex changed its executive structure as its industrial and commercial activities developed in Switzerland and abroad. Gian Riccardo Marini, then Managing Director of Rolex Italia, became CEO of Rolex SA.\n\nAt the same time, Rolex created a new executive role overseeing its foreign subsidiaries. Daniel Neidhart, already responsible for the Chinese market, assumed the position while remaining based in Hong Kong. Later that year, he was granted joint signing authority within Rolex Holding SA.\n\nCoherence gained another point of integration."
   },
   {
     "subject": "ROLEX",
