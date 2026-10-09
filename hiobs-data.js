@@ -791,7 +791,7 @@ const HIOBS_DATA = [
     "system": "Respiratory System",
     "systemSlug": "respiratory",
     "function": "Sales",
-    "observation": "In 2012, Wikimedia began Wikipedia Zero with mobile operators, providing Wikipedia without data charges where connectivity costs limited access.\n\nEarly launches showed sharp increases in mobile Wikipedia use. The program reached 97 operators in 72 countries, making zero rated access available to more than 800 million people.\n\nBy 2016, Wikimedia was narrowing new partnerships as adoption and operator interest declined, focusing on places where cost remained a significant barrier.\n\nIn 2018, Wikimedia stopped forming new partnerships and let the remaining agreements run their course.\n\nThe opening was allowed to expire."
+    "observation": "In 2012, Wikimedia began Wikipedia Zero with mobile operators, providing Wikipedia without data charges where connectivity costs limited access.\n\nEarly launches showed sharp increases in mobile Wikipedia use. The program reached 97 operators in 72 countries, making zero rated access available to more than 800 million people.\n\nIn 2016, Wikimedia narrowed its proactive search for partners to six priority countries, while remaining open to operator requests elsewhere. Adoption and operator interest declined from that period onward.\n\nIn 2018, Wikimedia stopped forming new partnerships and let the remaining agreements run their course.\n\nThe opening was allowed to expire."
   },
   {
     "subject": "Wikipedia",
