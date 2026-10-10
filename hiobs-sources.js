@@ -1161,5 +1161,146 @@ const HIOBS_SOURCES = {
         "url": "https://www.lego.com/en-us/history/articles/e-lego-duplo"
       }
     ]
+  },
+  "Grupo Bimbo": {
+    "nervous": [
+      {
+        "title": "Daniel Servitje, Exclusive Interview with Fortune México (2018) — Spanish original",
+        "publisher": "Grupo Bimbo / Fortune México",
+        "url": "https://www.grupobimbo.com/es/prensa/noticias/liderazgo/daniel-servitje-ceo-de-grupo-bimbo-entrevista-exclusiva-de-fortune-mexico"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "Informe Anual Integrado 2011 — annual report download page",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/es/inversionistas/reportes/informes-anuales/reporte-anual-2011"
+      },
+      {
+        "title": "Informe Anual Integrado 2012 — p. 87",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/en/investors/events/annual-report-2012"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "Grupo Bimbo to acquire Weston Foods (December 10, 2008)",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/en/press/releases/productivity/grupo-bimbo-acquire-weston-foods-inc-creating-one-leaders-us-baking"
+      },
+      {
+        "title": "Annual Report 2009 — pp. 92, 142",
+        "publisher": "Grupo Bimbo",
+        "url": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/eventos-2021/BIMBO_Annual_Report_2009_2.pdf?VersionId=sEsCKtJ12yDeQYxX1.POeqjF0izlxVMM"
+      },
+      {
+        "title": "Annual Report 2010 — p. 98",
+        "publisher": "Grupo Bimbo",
+        "url": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/eventos-2021/Annual_report_2010_bmv_bimbo_0.pdf?VersionId=JjF7UtE6Ctq5ILix_f22jScHCxZoK7tg"
+      },
+      {
+        "title": "Grupo Bimbo to acquire Sara Lee (November 9, 2010)",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/index.php/en/press/releases/productivity/grupo-bimbo-acquire-sara-lee"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Daniel Servitje in Milling and Baking News, Part 2",
+        "publisher": "Grupo Bimbo / Milling & Baking News",
+        "url": "https://www.grupobimbo.com/en/press/news/leadership/daniel-servitje-milling-and-baking-news-part-2"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "The original Mexico routes",
+        "publisher": "Grupo Bimbo historical archive",
+        "url": "https://www.grupobimbo.com/index.php/en/about-us/history/1945-1950/original-mexico-routes"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "De un post a una oportunidad — Vector B y Bimbo",
+        "publisher": "Brandwatch / Vector B / Bimbo",
+        "url": "https://www.brandwatch.com/es/wp-content/uploads/2017/01/caso_practico_brandwatch_bimbo.pdf"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "Daniel Servitje, Fortune México (2018)",
+        "publisher": "Grupo Bimbo / Fortune México",
+        "url": "https://www.grupobimbo.com/es/prensa/noticias/liderazgo/daniel-servitje-ceo-de-grupo-bimbo-entrevista-exclusiva-de-fortune-mexico"
+      },
+      {
+        "title": "Bimbo Connection Center launch (September 2019)",
+        "publisher": "PRODU / Findasense",
+        "url": "https://www.produ.com/mercadeo/noticias/findasense-inaugura-sus-oficinas-en-mexico-para-crear-el-bimbo-connection-center/"
+      },
+      {
+        "title": "Bimbo Contigo and Connection Center during COVID-19 (May 2020)",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/en/press/releases/community/grupo-bimbo-anuncia-una-serie-de-medidas-para-fortalecer-pequenos"
+      }
+    ],
+    "immune": [
+      {
+        "title": "Microsoft Purview customer story (January 2024)",
+        "publisher": "Microsoft / Grupo Bimbo",
+        "url": "https://www.microsoft.com/en/customers/story/1731802756276239389-grupo-bimbo-consumer-goods-purview"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "Reporte Anual BMV 2006 — p. 86",
+        "publisher": "Grupo Bimbo",
+        "url": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/reportes-2020/GrupoBimbo_BVM_RA_20070629_esp_1.pdf?VersionId=BQ2yJkcBZF6gprAXn9.cnd4fTxJNTAvv"
+      },
+      {
+        "title": "Ley del Mercado de Valores, Sexto Transitorio",
+        "publisher": "Mexican federal government",
+        "url": "https://www.ordenjuridico.gob.mx/Documentos/Federal/html/wo27.html"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "Global Palm Oil Policy (September 2015), p. 3",
+        "publisher": "Grupo Bimbo",
+        "url": "https://grupobimbo-com-assets.s3.amazonaws.com/s3fs-public/politica/7FGB-EPR-02-Global-Palm-Oil-Policy_0.pdf?VersionId=amBLntrAWfTGi0b63x72yqqIDqfgTryj"
+      },
+      {
+        "title": "Global Palm Oil Policy — Year 3, August 2018",
+        "publisher": "Grupo Bimbo",
+        "url": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/politicas/planes-de-accion/7Palm_Oil_Policy_Grupo_Bimbo_Progress_Update_Year_3_aug%20_29_2018_0_0.pdf?VersionId=MHihpMk2aT_GVhL49G.nwnLtWZWLxwqm"
+      },
+      {
+        "title": "Global Palm Oil Policy — Year 3, January 2019",
+        "publisher": "Grupo Bimbo",
+        "url": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/politicas/planes-de-accion/8Grupo-Bimbo-Global-Palm-Oil-Policy-Action-plan-_progress-update-Year-3__0_0.pdf?VersionId=z4gIIHzi3XRIclwhdiL1GZnXj7TSiw3T"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Sustentabilidad: Rosalío Rodríguez interview",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/index.php/es/prensa/noticias/medio-ambiente/sustentabilidad"
+      },
+      {
+        "title": "Informe Anual Integrado 2011 — download page",
+        "publisher": "Grupo Bimbo",
+        "url": "https://www.grupobimbo.com/es/inversionistas/reportes/informes-anuales/reporte-anual-2011"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "Marinela celebrates its 60th anniversary (2016)",
+        "publisher": "Grupo Bimbo",
+        "url": "https://grupobimbo.com/index.php/en/press/releases/leadership/marinela-celebrates-its-60th-anniversary"
+      },
+      {
+        "title": "The birth of Marinela",
+        "publisher": "Grupo Bimbo historical archive",
+        "url": "https://www.grupobimbo.com/en/about-us/history/1950-1960/birth-marinela"
+      }
+    ]
   }
 };
