@@ -462,7 +462,7 @@ const HIOBS_DATA = [
     "system": "Sensory System",
     "systemSlug": "sensory",
     "function": "Marketing",
-    "observation": "Questions about how people lived led IKEA to ask permission to enter their homes before redesigning them.\n\nEveryday living became the focus.\n\nProducts followed what was revealed.\n\nReorientation began at home."
+    "observation": "In 1986–87, IKEA studied the living rooms of Swedish workers. Questionnaires reached 400 households, and students visited around 40 homes.\n\nThe findings revealed preferences for traditional furnishings, substantial sofas, and display cabinets, different from IKEA’s contemporary range.\n\nThe study brought no immediate change. Yet home visits continued, becoming an established way for IKEA to observe how people lived.\n\nReorientation began at home."
   },
   {
     "subject": "IKEA",
