@@ -455,7 +455,7 @@ const HIOBS_DATA = [
     "system": "Respiratory System",
     "systemSlug": "respiratory",
     "function": "Sales",
-    "observation": "A visit to IKEA contains its own pause.\n\nWhat began with coffee and biscuits became a restaurant woven into the rhythm of the visit.\n\nPeople refresh and continue.\n\nThe exchange remains unbroken."
+    "observation": "In 1953, IKEA welcomed visitors to its Älmhult showroom with coffee and biscuits. When the first store opened in 1958, it had a coffee corner.\n\nCustomers still left at lunchtime to eat elsewhere, interrupting their shopping.\n\nIn summer 1960, IKEA opened IKEA Baren, its first restaurant, allowing visitors to eat without leaving the store.\n\nThe pause became part of the exchange."
   },
   {
     "subject": "IKEA",
@@ -469,7 +469,7 @@ const HIOBS_DATA = [
     "system": "Integumentary System",
     "systemSlug": "integumentary",
     "function": "Customer Care",
-    "observation": "IKEA began as a mail-order company.\n\nComplaints exposed the limits of distance.\n\nA showroom was created so customers could meet the furniture before deciding.\n\nThe boundary adapted to protect the encounter."
+    "observation": "In the early 1950s, intense price competition in furniture mail order brought IKEA increasing complaints and returns.\n\nCustomers could read descriptions in the catalogue but could not examine the furniture before ordering.\n\nOn 30 March 1953, IKEA opened a permanent showroom in a former joinery in Älmhult. Visitors could see, touch, and try the furniture for themselves.\n\nWhat had been promised at a distance could now be tested through contact."
   },
   {
     "subject": "IKEA",
