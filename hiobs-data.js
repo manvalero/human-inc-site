@@ -658,7 +658,7 @@ const HIOBS_DATA = [
     "system": "Lymphatic System",
     "systemSlug": "lymphatic",
     "function": "Procurement & Supply Chain",
-    "observation": "In 2015, Grupo Bimbo established that palm-oil suppliers not meeting its requirements would first be given time to correct.\n\nBy 2018, after two suppliers continued to fall short, Bimbo had stopped sourcing from them.\n\nThe following year, lessons from those cases were being incorporated into Procurement’s process for future supplier relationships.\n\nWhat could not continue had a clear way out."
+    "observation": "In 2015, Grupo Bimbo established that palm-oil suppliers not meeting its requirements would first be given time to correct.\n\nBy 2018, after two suppliers continued to fall short, Bimbo had stopped sourcing from them.\n\nIn January 2019, Bimbo reported that its process for handling noncompliant suppliers was being formalized and shared with procurement leads.\n\nWhat could not continue had a clear way out."
   },
   {
     "subject": "Grupo Bimbo",
