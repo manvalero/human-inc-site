@@ -3,6 +3,175 @@
 // Research caveats and provenance notes remain in the internal source register.
 
 const HIOBS_SOURCES = {
+  "Siemens AG": {
+    "nervous": [
+      {
+        "title": "Siemens — relocation of leadership and headquarters, 1945–1949",
+        "publisher": "Historisches Lexikon Bayerns",
+        "url": "https://www.historisches-lexikon-bayerns.de/Lexikon/Artikel_44804"
+      },
+      {
+        "title": "Ernst von Siemens — Historical account",
+        "publisher": "Siemens Historical Institute (reproduction)",
+        "url": "https://paperzz.com/doc/8384005/ernst-von-siemens---siemens-global-website"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "Siemens expands apprenticeships in 2012",
+        "publisher": "Siemens Press",
+        "url": "https://press.siemens.com/global/de/pressemitteilung/siemens-erhoeht-2012-die-zahl-seiner-ausbildungsplaetze"
+      },
+      {
+        "title": "Europeans@Siemens complete training",
+        "publisher": "Siemens Press",
+        "url": "https://press.siemens.com/global/en/pressrelease/europeanssiemens-complete-training"
+      },
+      {
+        "title": "Siemens has developed young people for 125 years",
+        "publisher": "Siemens Press",
+        "url": "https://press.siemens.com/global/en/pressrelease/siemens-has-developed-young-people-125-years"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "Siemens completes USFilter acquisition",
+        "publisher": "WaterWorld — contemporaneous reporting",
+        "url": "https://www.waterworld.com/home/article/16224382/siemens-completes-usfilter-buy-for-us993m"
+      },
+      {
+        "title": "Veolia — 2004 annual filing and adjusted USFilter consideration",
+        "publisher": "Veolia Environnement / U.S. SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1160110/000130817905000048/veolia20f.htm"
+      },
+      {
+        "title": "Global Swarming — USFilter acquisition history",
+        "publisher": "Los Angeles Times",
+        "url": "https://www.latimes.com/archives/la-xpm-1997-dec-14-fi-63890-story.html"
+      },
+      {
+        "title": "Siemens announces restructuring of its water business",
+        "publisher": "Siemens Press",
+        "url": "https://press.siemens.com/global/en/pressrelease/siemens-plans-savings-eu6-billion-2014-strengthens-core-activities-industry-sector"
+      },
+      {
+        "title": "Siemens 2014 filing — Water Technologies divestiture",
+        "publisher": "Siemens / U.S. SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1135644/000119312514190989/d719947d6k.htm"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Effective Implementation of Cycle Time Reduction Strategies for Semiconductor Back-End Manufacturing",
+        "publisher": "Winter Simulation Conference — original proceedings, 1998",
+        "url": "https://www.informs-sim.org/wsc98papers/133.PDF"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "Siemens annual Form 20-F — fiscal 2001",
+        "publisher": "Siemens / U.S. SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1135644/000095010902000112/d20f.htm"
+      },
+      {
+        "title": "Dispolok ES64U2 leasing, rental and reassignment history",
+        "publisher": "Elektrolokarchiv",
+        "url": "https://www.elektrolokarchiv.de/index.php?lang=1&nav=1404941"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "Siemens in America — 1908 New York office",
+        "publisher": "Siemens",
+        "url": "https://www.siemens.com/en-us/company/insights/us-stories/america-250-siemens-175-years-of-industry/"
+      },
+      {
+        "title": "Foreign Multinationals in the United States — Siemens in 1982",
+        "publisher": "Historical research by Wilfried Feldenkirchen",
+        "url": "https://www.researchgate.net/publication/256632723_Foreign_Multinationals_in_the_United_States_Management_and_Performance"
+      },
+      {
+        "title": "Siemens Corporation: That Was Then—This Is Now — 1989 brand study",
+        "publisher": "Encyclopedia of Major Marketing Campaigns / WARC",
+        "url": "https://www.warc.com/en/article/siemens-corporation%3A-that-was-then%26%23x2014%3Bthis-is-now-campaign-1732cff80d0c49639b3204485412ed66"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "BenQ phones — repairs and claims interrupted, October 2006",
+        "publisher": "Golem.de",
+        "url": "https://www.golem.de/0610/48609.html"
+      },
+      {
+        "title": "BenQ resumes warranty claims, November 17, 2006",
+        "publisher": "Golem.de",
+        "url": "https://www.golem.de/0611/49018.html"
+      },
+      {
+        "title": "Long-term Siemens and BenQ phone warranty service with B2X",
+        "publisher": "Computerwoche",
+        "url": "https://www.computerwoche.de/article/2657935/service-fuer-siemens-und-benq-siemens-mobiltelefone-gesichert.html"
+      }
+    ],
+    "immune": [
+      {
+        "title": "SSA-240718: Siemens S7-1200 V2 HTTPS certificate vulnerability",
+        "publisher": "Siemens ProductCERT",
+        "url": "https://cert-portal.siemens.com/productcert/html/ssa-240718.html"
+      },
+      {
+        "title": "ICSA-12-263-01 — device-specific certificate fingerprint guidance",
+        "publisher": "ICS-CERT advisory (reproduced by Vulners)",
+        "url": "https://vulners.com/ics/ICSA-12-263-01"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "Siemens/Areva proposed commitments, March 2012",
+        "publisher": "European Commission / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52012XC0314%2802%29"
+      },
+      {
+        "title": "Siemens/Areva final commitments notice, September 2012",
+        "publisher": "European Commission / EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52012XC0915%2802%29"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Siemens 2007 annual report — original amnesty policy",
+        "publisher": "Siemens (report reproduced by StudyLib)",
+        "url": "https://studylib.net/doc/8821765/annual-report-2007"
+      },
+      {
+        "title": "Siemens Sustainability Report 2008 — 123 amnesty requests",
+        "publisher": "Siemens AG",
+        "url": "https://www.siemens.com/investor/pool/en/investor_relations/downloadcenter/sustainability_report_2008.pdf"
+      },
+      {
+        "title": "United States sentencing memorandum — amnesty and April 2008 leniency",
+        "publisher": "U.S. Department of Justice",
+        "url": "https://www.justice.gov/archive/opa/documents/siemens-sentencing-memo.pdf"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "The Biograph — original PET/CT design and clinical account, 2001",
+        "publisher": "Beyer et al. / Siemens electromedica",
+        "url": "https://osiris.df.unipi.it/~giuliett/SEMINARI_OQ_02/SEMINARI-STUDENTI/CT-PET/ACKNOW_1/THEBIO_1.PDF"
+      },
+      {
+        "title": "The future of hybrid imaging, Part 2: PET/CT",
+        "publisher": "Peer-reviewed medical literature / PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3288992/"
+      },
+      {
+        "title": "University of Pittsburgh v. Townsend — PET/CT commercial installation",
+        "publisher": "U.S. Court of Appeals, Sixth Circuit (Justia copy)",
+        "url": "https://law.justia.com/cases/federal/appellate-courts/ca6/07-6062/08a0342p-06-2011-02-25.html"
+      }
+    ]
+  },
   "ROLEX": {
     "nervous": [
       {
