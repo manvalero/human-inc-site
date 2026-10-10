@@ -3,6 +3,213 @@
 // Research caveats and provenance notes remain in the internal source register.
 
 const HIOBS_SOURCES = {
+  "NASA": {
+    "nervous": [
+      {
+        "title": "55 Years Ago: Apollo 12 Makes a Pinpoint Landing on the Moon",
+        "publisher": "NASA / Johnson Space Center",
+        "date": "2024-11-14",
+        "url": "https://www.nasa.gov/history/55-years-ago-apollo-12-makes-a-pinpoint-landing-on-the-moon/"
+      },
+      {
+        "title": "Apollo 12 Lightning Strike Incident — annotated flight transcript",
+        "publisher": "Apollo Flight Journal",
+        "url": "https://apollojournals.org/afj/ap12fj/a12-lightningstrike.html"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "The Story of Snoopy in Space — Apollo 8 pins in 1968",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "date": "2024-04-20",
+        "url": "https://www.smithsonianmag.com/blogs/air-space-museum/2024/04/20/the-story-of-snoopy-in-space/"
+      },
+      {
+        "title": "Silver Snoopy Award — criteria, recognition and eligibility",
+        "publisher": "NASA Space Flight Awareness",
+        "url": "https://www.nasa.gov/space-flight-awareness/silver-snoopy-award/"
+      },
+      {
+        "title": "NASA Silver Snoopy",
+        "publisher": "NASA White Sands Test Facility",
+        "date": "2015-06-25",
+        "url": "https://www.nasa.gov/centers-and-facilities/white-sands/nasa-silver-snoopy/"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "Commercial Orbital Transportation Services (COTS) Demonstrations",
+        "publisher": "NASA Technical Reports Server",
+        "date": "2006-09-20",
+        "url": "https://ntrs.nasa.gov/citations/20060050052"
+      },
+      {
+        "title": "NASA Partners With Orbital Sciences for Space Transport Services",
+        "publisher": "NASA",
+        "date": "2008-02-19",
+        "url": "https://www.nasa.gov/news-release/nasa-partners-with-orbital-sciences-for-space-transport-services/"
+      },
+      {
+        "title": "10 Years Ago: The First Operational Cygnus Cargo Mission",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/history/10-years-ago-the-first-operational-cygnus-cargo-mission-to-the-space-station/"
+      },
+      {
+        "title": "NASA Administrator Bolden to Hail Success of Commercial Cargo Program",
+        "publisher": "NASA",
+        "date": "2013-11-08",
+        "url": "https://www.nasa.gov/news-release/nasa-administrator-bolden-to-hail-success-of-commercial-cargo-program/"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Hubble Astronauts — training and rehearsal",
+        "publisher": "NASA Science",
+        "url": "https://science.nasa.gov/mission/hubble/team/astronauts/"
+      },
+      {
+        "title": "Goddard Engineers and Divers Multi-Task for Hubble",
+        "publisher": "NASA Goddard",
+        "date": "2007-11-16",
+        "url": "https://science.nasa.gov/missions/hubble/goddard-engineers-and-divers-multi-task-for-hubble/"
+      },
+      {
+        "title": "Hubble's Impact on Human Spaceflight",
+        "publisher": "NASA Science",
+        "url": "https://science.nasa.gov/mission/hubble/impacts-and-benefits/hubbles-impact-on-human-spaceflight/"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "NASA Opens High Frontier to Education and Not-For-Profit Groups",
+        "publisher": "NASA",
+        "date": "2010",
+        "url": "https://www.nasa.gov/news-release/nasa-opens-high-frontier-to-education-and-not-for-profit-groups/"
+      },
+      {
+        "title": "CubeSat Launch Initiative — Introduction",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/cubesat-launch-initiative-introduction/"
+      },
+      {
+        "title": "ELaNa 31 Mission CubeSats Deployed",
+        "publisher": "NASA Kennedy Space Center",
+        "url": "https://www.nasa.gov/centers-and-facilities/kennedy/elana-31-mission-cubesats-deployed/"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "The Worm is Back!",
+        "publisher": "NASA",
+        "date": "2020",
+        "url": "https://www.nasa.gov/general/the-worm-is-back/"
+      },
+      {
+        "title": "30 Years Ago: Daniel Goldin Sworn in as NASA's Ninth Administrator",
+        "publisher": "NASA History",
+        "url": "https://www.nasa.gov/history/30-years-ago-daniel-goldin-sworn-in-as-nasas-ninth-administrator/"
+      },
+      {
+        "title": "The NASA Worm — interview with designer Richard Danne",
+        "publisher": "NASA / Houston We Have a Podcast",
+        "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-nasa-worm/"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "Forever Remembered Exhibit Honoring Challenger and Columbia Opens",
+        "publisher": "NASA Kennedy Space Center",
+        "date": "2015",
+        "url": "https://www.nasa.gov/news-release/forever-remembered-exhibit-honoring-challenger-and-columbia-opens-at-kennedy-space-center-visitor-complex/"
+      },
+      {
+        "title": "Forever Remembered Shares Enduring Lessons of Challenger, Columbia",
+        "publisher": "NASA Kennedy Space Center",
+        "url": "https://www.nasa.gov/centers-and-facilities/kennedy/forever-remembered-shares-enduring-lessons-of-challenger-columbia/"
+      }
+    ],
+    "immune": [
+      {
+        "title": "Mars Polar Lander / Deep Space 2 — probable loss cause",
+        "publisher": "NASA Jet Propulsion Laboratory",
+        "url": "https://www.jpl.nasa.gov/missions/mars-polar-lander-deep-space-2/"
+      },
+      {
+        "title": "Phoenix — mission and hardware heritage",
+        "publisher": "NASA Astrobiology",
+        "url": "https://astrobiology.nasa.gov/missions/phoenix/"
+      },
+      {
+        "title": "HR-36 Detect and Annunciate Faults — Mars Polar Lander lessons",
+        "publisher": "NASA Software Engineering Handbook",
+        "url": "https://swehb.nasa.gov/spaces/SWEHBVD/pages/171508203/HR-36%2B-%2BDetect%2BAnd%2BAnnunciate%2BFaults"
+      },
+      {
+        "title": "NASA's Phoenix Spacecraft Lands at Martian Arctic Site",
+        "publisher": "NASA Jet Propulsion Laboratory",
+        "date": "2008",
+        "url": "https://www.jpl.nasa.gov/news/nasas-phoenix-spacecraft-lands-at-martian-arctic-site/"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "20 Years Ago: Station Partners Sign Intergovernmental Agreement",
+        "publisher": "NASA History",
+        "url": "https://www.nasa.gov/history/20-years-ago-station-partners-sign-intergovernmental-agreement-iga/"
+      },
+      {
+        "title": "International Space Station — partner responsibilities",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/reference/international-space-station/"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "Space Shuttle Recordation — Solid Rocket Boosters",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/space-shuttle-recordation/srb/"
+      },
+      {
+        "title": "SRB Retrieval Ships Recordation — ocean recovery",
+        "publisher": "NASA",
+        "url": "https://www.nasa.gov/srb-retrieval-ships-recordation/"
+      },
+      {
+        "title": "Rogers Commission testimony — sea recovery, cleaning, and refurbishment",
+        "publisher": "NASA — Rogers Commission archives",
+        "url": "https://www.nasa.gov/history/rogersrep/v4part1a.htm"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "60 Years Ago: President Kennedy Reaffirms Moon Landing Goal",
+        "publisher": "NASA History",
+        "url": "https://www.nasa.gov/history/60-years-ago-president-kennedy-reaffirms-moon-landing-goal-in-rice-university-speech/"
+      },
+      {
+        "title": "65 Years Ago: NASA Formally Establishes the Space Task Group",
+        "publisher": "NASA History",
+        "url": "https://www.nasa.gov/history/65-years-ago-nasa-formally-establishes-the-space-task-group/"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "Mars Pathfinder Rover: Sojourner",
+        "publisher": "NASA Jet Propulsion Laboratory Robotics",
+        "url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/pathfinder/"
+      },
+      {
+        "title": "The Power of the Rovers",
+        "publisher": "NASA / On a Mission Podcast",
+        "url": "https://www.nasa.gov/podcasts/on-a-mission/the-power-of-the-rovers-s4e10/"
+      },
+      {
+        "title": "Spirit and Opportunity Mars Exploration Rovers",
+        "publisher": "NASA Science",
+        "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+      }
+    ]
+  },
   "Siemens AG": {
     "nervous": [
       {
