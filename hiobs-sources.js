@@ -868,5 +868,149 @@ const HIOBS_SOURCES = {
         "url": "https://www.mediawiki.org/wiki/Edit_check"
       }
     ]
+  },
+  "Oxford University": {
+    "nervous": [
+      {
+        "title": "Oxford University Gazette: archive and history",
+        "publisher": "University of Oxford",
+        "url": "https://www.ox.ac.uk/about/how-we-are-run/gazette/back-issues-archive-search"
+      },
+      {
+        "title": "University of Oxford Gazette",
+        "publisher": "University of Oxford",
+        "url": "https://www.ox.ac.uk/about/how-we-are-run/gazette"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "Foundation of St Cross College",
+        "publisher": "University of Oxford",
+        "url": "https://www.stx.ox.ac.uk/node/701501"
+      },
+      {
+        "title": "Wolfson College origins (formerly Iffley)",
+        "publisher": "University of Oxford",
+        "url": "https://www.wolfson.ox.ac.uk/origins/"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "University College Oxford history",
+        "publisher": "University College Oxford / Historic transcription",
+        "url": "https://www.univ.ox.ac.uk/about/history/"
+      },
+      {
+        "title": "University College historical notice",
+        "publisher": "University College Oxford / Historic transcription",
+        "url": "https://en.wikisource.org/wiki/Oxford_men_and_their_colleges/University_College/Historical_Notice"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Bodleian Libraries Annual Report 2010–11 — Oxford Gazette Volume 142",
+        "publisher": "University of Oxford Gazette / Sustainable Digital Scholarship",
+        "url": "https://portal.sds.ox.ac.uk/articles/online_resource/2011-2012_-_Vol_142_redacted_/17298137"
+      },
+      {
+        "title": "Bodleian Libraries Annual Report 2011–12",
+        "publisher": "Bodleian Libraries, University of Oxford",
+        "url": "https://www.bodleian.ox.ac.uk/sites/default/files/bodreader/documents/media/annualreport-2011-12.pdf"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "Oxford Report (1908), Oxford and Working Class Education",
+        "publisher": "University of Oxford",
+        "url": "https://education-uk.org/documents/oxford1908/oxford1908.html"
+      },
+      {
+        "title": "Oxford Continuing Education — Raising the Bar",
+        "publisher": "University of Oxford",
+        "url": "https://www.conted.ox.ac.uk/about/raising-the-bar"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "Pitt Rivers Museum Annual Report 2009–10",
+        "publisher": "Pitt Rivers Museum, University of Oxford",
+        "url": "https://sma.prm.ox.ac.uk/index.php/museum-annual-reports/305-2009-10-annual-report.html"
+      },
+      {
+        "title": "Pitt Rivers Museum Annual Report 2010–11 — Visitor Research",
+        "publisher": "University of Oxford — Pitt Rivers Museum",
+        "url": "https://sma.prm.ox.ac.uk/index.php/museum-annual-reports/306-2010-11-annual-report.html"
+      },
+      {
+        "title": "Changing Whilst Staying the Same: How the VERVE Project Transformed the Pitt Rivers Museum",
+        "publisher": "University of Oxford — Pitt Rivers Museum",
+        "url": "https://prm.web.ox.ac.uk/node/658991"
+      },
+      {
+        "title": "Pitt Rivers Museum — original annual reports index",
+        "publisher": "Pitt Rivers Museum, University of Oxford",
+        "url": "https://sma.prm.ox.ac.uk/index.php/museum-annual-reports.html"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "St Johns Lodge: History",
+        "publisher": "St John's College",
+        "url": "https://www.sjc.ox.ac.uk/discover/about-college/college-buildings/lodge-refurbishment/history/"
+      },
+      {
+        "title": "What we are doing: Porters Lodge",
+        "publisher": "St John's College",
+        "url": "https://www.sjc.ox.ac.uk/discover/about-college/college-buildings/lodge-refurbishment/what-were-doing/"
+      },
+      {
+        "title": "Visit us: present accessibility",
+        "publisher": "St John's College",
+        "url": "https://www.sjc.ox.ac.uk/discover/visit-us/"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "1894–1896: Women and degree debates",
+        "publisher": "University of Oxford",
+        "url": "https://www.firstwomenatoxford.ox.ac.uk/1894-1896"
+      },
+      {
+        "title": "1920: First matriculation and degrees",
+        "publisher": "University of Oxford",
+        "url": "https://www.firstwomenatoxford.ox.ac.uk/1920-the-first-matriculation-ceremony-for-women-took-place-and-the-first-degrees-were-awarded-to-wom"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "Environmental Sustainability Annual Report 2020–21 p15",
+        "publisher": "University of Oxford",
+        "url": "https://sustainability.web.ox.ac.uk/files/environmentalsustainabilityreport2020-21.pdf"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Official Oxford Statutes and governance history",
+        "publisher": "University of Oxford",
+        "url": "https://www.ox.ac.uk/about/how-we-are-run/governance-finance/legislation/statutes"
+      },
+      {
+        "title": "History of Convocation and Congregation",
+        "publisher": "Oxford University Archives (University of Oxford)",
+        "url": "https://www.bodleian.ox.ac.uk/sites/default/files/bodreader/documents/media/convocation-and-congregation.pdf"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "Physics Department: Spin-outs",
+        "publisher": "University of Oxford",
+        "url": "https://www.physics.ox.ac.uk/research/our-research-action/spin-outs"
+      },
+      {
+        "title": "Oxford retains top spot for spinouts (23 May 2023)",
+        "publisher": "University of Oxford",
+        "url": "https://www.ox.ac.uk/news/2023-05-23-oxford-retains-top-spot-spinouts"
+      }
+    ]
   }
 };
