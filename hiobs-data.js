@@ -490,7 +490,7 @@ const HIOBS_DATA = [
     "system": "Lymphatic System",
     "systemSlug": "lymphatic",
     "function": "Procurement & Supply Chain",
-    "observation": "In FY2010, IKEA decided to phase out wooden pallets from its goods transport. After deliveries, empty pallets had to travel back from stores through the supply chain.\n\nIKEA replaced them with lighter paper pallets and loading ledges that could be adapted to different product sizes.\n\nBy FY2013, IKEA reported that wooden pallets had been phased out of its global transport network.\n\nOne unnecessary journey left the supply chain."
+    "observation": "In FY2010, IKEA decided to phase out wooden pallets from its goods transport. After deliveries, empty pallets had to travel back from stores through the supply chain.\n\nIKEA replaced them with lighter paper pallets and loading ledges that could be adapted to different product sizes.\n\nBy FY2013, IKEA reported that the transition was complete across its global transport network.\n\nOne unnecessary journey left the supply chain."
   },
   {
     "subject": "IKEA",
