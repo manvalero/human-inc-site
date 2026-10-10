@@ -574,7 +574,7 @@ const HIOBS_DATA = [
     "system": "Lymphatic System",
     "systemSlug": "lymphatic",
     "function": "Procurement & Supply Chain",
-    "observation": "After the January 26, 2001 Gujarat earthquake, BP5 high energy biscuits were requested as contingency food. The quantity was enough for 300,000 people for one week if shortages developed.\n\nBy the end of the first week, local kitchens and dry rations were covering food needs as regular food supplies began to recover. General BP5 distribution was put on hold.\n\nBy May, roughly 159,000 rations remained. With donor consent, they were moved to four Indian Red Cross disaster preparedness warehouses. As relief stock left Bhuj, five temporary storage halls were scheduled for dismantling.\n\nThe response lightened as need receded."
+    "observation": "After the January 26, 2001 Gujarat earthquake, BP5 high energy biscuits were requested as contingency food. The quantity was enough for 300,000 people for one week if shortages developed.\n\nBy the end of the first week, local kitchens and dry rations were covering food needs as regular food supplies began to recover. General BP5 distribution was put on hold.\n\nBy May, roughly 159,000 rations remained. By mutual agreement among the Red Cross organizations involved, the remaining stocks were scheduled for transfer to Indian Red Cross disaster preparedness warehouses. Five temporary storage halls in Bhuj were scheduled for dismantling.\n\nThe response lightened as need receded."
   },
   {
     "subject": "Red Cross",
