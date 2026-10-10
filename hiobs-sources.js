@@ -1020,5 +1020,146 @@ const HIOBS_SOURCES = {
         "url": "https://www.ox.ac.uk/news/2023-05-23-oxford-retains-top-spot-spinouts"
       }
     ]
+  },
+  "LEGO": {
+    "nervous": [
+      {
+        "title": "LEGO Annual Report 2003, p. 7",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/cdn/cs/aboutus/assets/blte6c97bc4718a1848/Annual_Report_2003_ENG.pdf"
+      },
+      {
+        "title": "LEGO Annual Report 2004, p. 15",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/cdn/cs/aboutus/assets/blt07abb4b8a3da3f39/Annual_Report_2004_ENG.pdf"
+      },
+      {
+        "title": "Bits N Bricks, Season 1, Episode 18: A Fabled History — Jørgen Vig Knudstorp interview and transcript",
+        "publisher": "LEGO Group (firsthand interview)",
+        "url": "https://www.lego.com/cdn/cs/set/assets/blt9683a284a3ea1597/bits_n_bricks_s01e18_a_fabled_history_feature_and_transcript.pdf"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "The beginning of the LEGO Group — The fire in 1942",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/history/articles/b-the-beginning-of-the-lego-group"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "LEGO Annual Report 2005, p. 27",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/cdn/cs/aboutus/assets/blt6eacf5a8b7af1359/Annual_Report_2005_ENG.pdf"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Entering the age of plastics",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/history/articles/c-entering-the-age-of-plastics"
+      },
+      {
+        "title": "The LEGO moulding philosophy",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-ca/history/articles/e-the-lego-moulding-philosophy"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "LEGO Annual Report 2007, p. 12",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/cdn/cs/aboutus/assets/bltd2f21c606528791c/Annual_Report_2007_ENG.pdf"
+      },
+      {
+        "title": "LEGO Annual Report 2008, p. 8",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/cdn/cs/aboutus/assets/blt9ac392a2506c758a/Annual_Report_2008_ENG.pdf"
+      },
+      {
+        "title": "Outsourcing and Insourcing — LEGO History",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/history/articles/i-outsourcing-and-insourcing"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "LEGO Group acquires BrickLink — historic background",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/aboutus/news/2019/november/lego-bricklink"
+      },
+      {
+        "title": "History of LEGO Modular Buildings",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/categories/adults-welcome/article/history-of-lego-modular-buildings"
+      },
+      {
+        "title": "LEGO Ideas — Community engagement history",
+        "publisher": "LEGO Group",
+        "url": "https://www.lego.com/en-us/history/articles/j-lego-ideas"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "How to get pieces that are missing from a new set",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/service/help-topics/article/how-to-get-pieces-that-are-missing-from-a-new-set"
+      },
+      {
+        "title": "Missing bags in new sets",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/service/help-topics/article/missing-bags-in-new-sets"
+      }
+    ],
+    "immune": [
+      {
+        "title": "LEGO Life launch and digital safety rules",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/aboutus/news/2019/october/lego-life"
+      },
+      {
+        "title": "How Lego Built a Social Network for Kids That’s Not Creepy — direct interview with Rob Lowe",
+        "publisher": "WIRED — contemporaneous first-hand interview with LEGO Life head Rob Lowe",
+        "url": "https://www.wired.com/2017/01/lego-life-social-network-kids/"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "From private airfield to international airport",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-at/history/articles/e-from-private-airfield-to-international-airport"
+      },
+      {
+        "title": "Billund Airport — Danish reference history",
+        "publisher": "Lex.dk (independent secondary reference)",
+        "url": "https://lex.dk/Billund_Airport"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "LEGO Group reports full year results for 2017",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/aboutus/news/2019/october/annual-results-2017"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Smooth handover to the next generation ensures continued active family ownership",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/aboutus/news/2019/october/smooth-handover-to-the-next-generation"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "Early experiments with preschool products",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-gb/history/articles/c-early-experiments-with-preschool-products"
+      },
+      {
+        "title": "LEGO DUPLO — LEGO Group History",
+        "publisher": "The LEGO Group",
+        "url": "https://www.lego.com/en-us/history/articles/e-lego-duplo"
+      }
+    ]
   }
 };
