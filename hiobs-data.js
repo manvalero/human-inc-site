@@ -504,7 +504,7 @@ const HIOBS_DATA = [
     "system": "Reproductive System",
     "systemSlug": "reproductive",
     "function": "Research & Development",
-    "observation": "IKEA developed products together with the manufacturers that would produce them.\n\nOn the factory floor, each refinement prepared the next.\n\nWhat followed became more without leaving its source."
+    "observation": "In 1975, IKEA engineer Arne Hall visited Romanian factories producing several similar bookcases that could not be combined. There, he conceived the idea for BILLY.\n\nBack in Sweden, Gillis Lundgren sketched Hall’s idea. BILLY appeared in the 1979 IKEA catalogue alongside its predecessor TIGA.\n\nTIGA was discontinued in 1981. BILLY continued developing, gaining new configurations and glass doors in 1993. In 2022, redesigned materials and snap fittings made disassembly and reassembly possible.\n\nThe new model became an origin of its own."
   },
   {
     "subject": "Red Cross",
