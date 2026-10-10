@@ -969,6 +969,14 @@ const HIOBS_SOURCES = {
         "url": "https://www.sjc.ox.ac.uk/discover/visit-us/"
       }
     ],
+    "immune": [
+      {
+        "title": "ICT Forum Termly Meeting, Michaelmas 2015 — Information Security Update",
+        "publisher": "University of Oxford ICT Forum",
+        "date": "2015-12-08",
+        "url": "https://old.ictf.ox.ac.uk/meetings/minutes/MT15.html"
+      }
+    ],
     "skeletal": [
       {
         "title": "1894–1896: Women and degree debates",
