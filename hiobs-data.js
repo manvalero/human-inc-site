@@ -497,7 +497,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "As IKEA grew beyond the reach of one person, Ingvar Kamprad wrote The Testament of a Furniture Dealer.\n\nA shared condition entered the organization.\n\nEvery decision emerged within the same climate."
+    "observation": "By the mid-1970s, IKEA had expanded beyond Sweden and employed several thousand people. Ingvar Kamprad could no longer reach every co-worker personally.\n\nIn 1976, he published The Testament of a Furniture Dealer. Its nine points described a way of working grounded in simplicity, low prices with meaning, and personal responsibility.\n\nIn 1985, the IKEA Way programme extended that culture to new co-workers. IKEA continues to identify both as part of its way of working.\n\nThe condition could reach farther than its author."
   },
   {
     "subject": "IKEA",
