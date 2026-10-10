@@ -210,7 +210,7 @@ const HIOBS_DATA = [
     "system": "Sensory System",
     "systemSlug": "sensory",
     "function": "Marketing",
-    "observation": "Adult builders had been organizing independently for years.\n\nIn 2000, BrickLink gave that growing community an online place to connect.\n\nLEGO began paying closer attention to the creativity emerging there.\n\nIn 2007, it introduced Modular Buildings as a line aimed specifically at Adult Fans of LEGO.\n\nPresence was already there before it was recognized."
+    "observation": "Adult builders had been organizing independently for years.\n\nIn 2000, BrickLink gave that growing community an online place to connect.\n\nLEGO began paying closer attention to the creativity emerging among adult fans.\n\nIn 2007, it introduced Modular Buildings as a line aimed specifically at Adult Fans of LEGO.\n\nPresence was already there before it was recognized."
   },
   {
     "subject": "LEGO",
@@ -224,7 +224,7 @@ const HIOBS_DATA = [
     "system": "Immune System",
     "systemSlug": "immune",
     "function": "Information Technology",
-    "observation": "In 2017, LEGO launched LEGO Life, a social network for children under 13 designed to keep identifying information out. Uploads were screened before publication.\n\nChildren began submitting selfies. The images did not pass the filter.\n\nSome kids covered their faces with LEGO minifigure stickers and submitted them again.\n\nThe workaround forced LEGO to reconsider what could still identify them. The altered selfies were rejected again.\n\nThe attempt to pass the filter sharpened the distinction."
+    "observation": "In 2017, LEGO launched LEGO Life, a social network for children under 13 designed to keep identifying information out. Uploads were screened before publication.\n\nChildren began submitting selfies. The images did not pass the filter.\n\nSome kids covered their faces with LEGO minifigure stickers.\n\nThe workaround forced LEGO to reconsider what could still identify them. The altered selfies were also judged too identifying.\n\nThe attempt to pass the filter sharpened the distinction."
   },
   {
     "subject": "LEGO",
