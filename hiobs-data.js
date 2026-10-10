@@ -560,7 +560,7 @@ const HIOBS_DATA = [
     "system": "Immune System",
     "systemSlug": "immune",
     "function": "Information Technology",
-    "observation": "In 2018, about a quarter of people receiving Kenya Red Cross cash aid had no official ID. Without one, they could not receive mobile money directly.\n\nIn 2021, Kenya Red Cross and IFRC tested DIGID with 300 households; 255 had no official ID.\n\nOnce approved, participants received a QR credential to verify eligibility, either digital or printed with PIN protection.\n\nIt verified eligibility for aid, not legal identity.\n\nThe marker adapted. Recognition held."
+    "observation": "In 2018, about a quarter of people receiving Kenya Red Cross cash aid had no official ID. Without one, they could not receive mobile money directly.\n\nIn 2021, Kenya Red Cross and IFRC tested DIGID with 300 households.\n\nOnce approved, participants received a QR credential to verify eligibility, either digital or printed with PIN protection.\n\nIt verified eligibility for aid, not legal identity.\n\nThe marker adapted. Recognition held."
   },
   {
     "subject": "Red Cross",
@@ -581,7 +581,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "In October 1965, the Twentieth International Conference in Vienna unanimously proclaimed the seven Fundamental Principles of the Red Cross.\n\nIn a separate resolution, the Conference decided that the Principles would be solemnly read at the opening of every future International Conference.\n\nAt the 34th International Conference in Geneva in 2024, the same seven Principles were read again at the opening plenary.\n\nThe conference begins inside the Principles."
+    "observation": "In October 1965, the Twentieth International Conference in Vienna unanimously proclaimed the seven Fundamental Principles of the Red Cross.\n\nIn a separate resolution, the Conference decided that the Principles would be solemnly read at the opening of every future International Conference.\n\nAt the 34th International Conference in Geneva in 2024, the opening plenary agenda again provided for a reading of the seven Principles.\n\nThe conference begins inside the Principles."
   },
   {
     "subject": "Red Cross",
