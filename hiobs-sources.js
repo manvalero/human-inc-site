@@ -1443,5 +1443,205 @@ const HIOBS_SOURCES = {
         "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Our_Innovation_Your_Progress_How_Citi_Services_Empowers_Growth_for_Investors_and_Issuers.pdf"
       }
     ]
+  },
+  "Red Cross": {
+    "nervous": [
+      {
+        "title": "Force versus Law: ICRC and Chemical Warfare in the Italo-Ethiopian War, 1935–1936",
+        "publisher": "International Review of the Red Cross / Rainer Baudendistel",
+        "date": "1998-03",
+        "url": "https://international-review.icrc.org/articles/force-versus-law-international-committee-red-cross-and-chemical-warfare-italo-ethiopian"
+      },
+      {
+        "title": "The Cross in the Crosshairs: Bombing of Red Cross Field Hospitals in Ethiopia",
+        "publisher": "ICRC Archives / Cross-Files",
+        "url": "https://blogs.icrc.org/cross-files/the-cross-in-the-crosshairs-a-photographic-record-of-the-bombing-of-red-cross-field-hospitals-during-the-second-italo-ethiopian-war/"
+      },
+      {
+        "title": "International Review of the Red Cross — English Archive, 1998 March",
+        "publisher": "Law Library of Congress",
+        "url": "https://wwws.loc.gov/law/mlr/military-law.php"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "Nurses of the League: A Resilient Humanitarianism Project (archival transcription)",
+        "publisher": "ResearchGate / Nurses of the League project",
+        "url": "https://www.researchgate.net/publication/353559699_Nurses_of_the_League_A_Resilient_Humanitarianism_Project_The_League_of_Red_Cross_Societies"
+      },
+      {
+        "title": "League of Red Cross Societies: Nursing Records, 15 Manchester Square",
+        "publisher": "Royal Holloway, University of London",
+        "url": "https://repository.royalholloway.ac.uk/file/66a4cd9f-c44a-46b0-ae40-043c4f6dcaa4/1/BC_AL_335_4.pdf"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "The Work of the American Red Cross During the War: Finances and Accomplishments, 1917–1919",
+        "publisher": "American Red Cross / public-domain scan via Wikimedia Commons",
+        "date": "1919",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/The_work_of_the_America_Red_cross_during_the_war%3B_a_statement_of_finances_and_accomplishments_for_the_period_July_1%2C_1917%2C_to_February_28%2C_1919_%28IA_workofamericared00redc%29.pdf"
+      },
+      {
+        "title": "The Work of the American Red Cross During the War — Catalog Record",
+        "publisher": "Library of Congress",
+        "date": "1919",
+        "url": "https://www.loc.gov/item/20007096/"
+      },
+      {
+        "title": "Congressional Record: American Red Cross Postwar Statement",
+        "publisher": "United States Government Publishing Office",
+        "date": "1919",
+        "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1919-pt8-v58/pdf/GPO-CRECB-1919-pt8-v58-12-2.pdf"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "International Review of the Red Cross — Night Airlift Operations, October 1968",
+        "publisher": "ICRC / Library of Congress",
+        "date": "1968-10",
+        "url": "https://tile.loc.gov/storage-services/service/ll/llmlp/65002328_RC_Oct-1968/65002328_RC_Oct-1968.pdf"
+      },
+      {
+        "title": "International Review of the Red Cross, No. 97, March 1969",
+        "publisher": "ICRC / Library of Congress",
+        "date": "1969-03",
+        "url": "https://www.loc.gov/item/65002328_RC_Mar-1969/"
+      },
+      {
+        "title": "International Review of the Red Cross — April 1969 Operations",
+        "publisher": "ICRC / Library of Congress",
+        "date": "1969-04",
+        "url": "https://tile.loc.gov/storage-services/service/ll/llmlp/65002328_RC_Apr-1969/65002328_RC_Apr-1969.pdf"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "International Red Cross Needs for Tsunami Relief Program Met — January 26 Announcement",
+        "publisher": "American Red Cross announcement / Southern Maryland Online reproduction",
+        "date": "2005-01-26",
+        "url": "https://somd.com/news/headlines/2005/1644.php"
+      },
+      {
+        "title": "Tsunami Recovery Program: Five-Year Report",
+        "publisher": "American Red Cross",
+        "url": "https://www.redcross.org/content/dam/redcross/atg/PDF_s/TsunamiRP5yearReport.pdf"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "Re-appraisal of the Role of the Red Cross: Progress and Plans — October 1974 Report",
+        "publisher": "International Review of the Red Cross / Cambridge University Press",
+        "date": "1975-01",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C1029AB644E338C3B5482D84926B8101/S0020860400018295a.pdf/reappraisal_of_the_role_of_the_red_cross_progress_and_plans.pdf"
+      },
+      {
+        "title": "The Red Cross as a Transnational Movement: Conserving and Changing the Nation-State System",
+        "publisher": "International Organization / Cambridge University Press",
+        "url": "https://www.cambridge.org/core/journals/international-organization/article/abs/red-cross-as-transnational-movement-conserving-and-changing-the-nationstate-system/578610A6AD2EF0A2200EB37024170FD5"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "Le service de nouvelles aux familles en Espagne — Contemporary Barcelona Account",
+        "publisher": "International Review of the Red Cross / Anne Bucher",
+        "url": "https://international-review.icrc.org/sites/default/files/S1026881200035017a.pdf"
+      },
+      {
+        "title": "Geneva Convention IV: Article 25, 1958 Commentary",
+        "publisher": "ICRC / International Humanitarian Law Database",
+        "date": "1958",
+        "url": "https://ihl-databases.icrc.org/en/ihl-treaties/gciv-1949/article-25/commentary/1958"
+      }
+    ],
+    "immune": [
+      {
+        "title": "Digital IDs in the Humanitarian Sector: What’s the Big Deal?",
+        "publisher": "IFRC Humanitarian Data & Digital",
+        "date": "2021-05-19",
+        "url": "https://interoperability.ifrc.org/2021/05/19/digital-ids-in-the-humanitarian-sector-whats-the-big-deal/"
+      },
+      {
+        "title": "Digital Wallet: DIGID Kenya Pilot",
+        "publisher": "IFRC Humanitarian Data & Digital",
+        "url": "https://interoperability.ifrc.org/projects/digital-wallet/"
+      },
+      {
+        "title": "DIGID Platform Set-Up Guide — QR Credentials and PIN Procedure",
+        "publisher": "IFRC",
+        "date": "2021",
+        "url": "https://interoperability.ifrc.org/wp-content/uploads/2023/11/DIGIDSetUpGuide31052021.pdf"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "Origin and Evolution of the Statutes of the International Red Cross",
+        "publisher": "International Review of the Red Cross / André Durand",
+        "date": "1983-08",
+        "url": "https://international-review.icrc.org/articles/origin-and-evolution-statutes-international-red-cross"
+      },
+      {
+        "title": "Max Huber and the Red Cross",
+        "publisher": "European Journal of International Law / Yves Sandoz",
+        "date": "2007-02-01",
+        "url": "https://academic.oup.com/ejil/article/18/1/171/362813"
+      },
+      {
+        "title": "Origin and Evolution of the Statutes of the International Red Cross — Text Reproduction",
+        "publisher": "Studocu / reproduction of André Durand article",
+        "url": "https://www.studocu.com/ph/document/sultan-kudarat-state-university/juris-doctor/origin-and-evolution-of-the-statutes-of-the-international-red-cross-a/133786560"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "India/Gujarat Earthquake — Situation Report 27, May 21 2001",
+        "publisher": "IFRC",
+        "date": "2001-05-21",
+        "url": "https://www.ifrc.org/docs?file=appeals%2F01%2F040127.pdf"
+      },
+      {
+        "title": "India/Gujarat Earthquake — Situation Report 24",
+        "publisher": "IFRC",
+        "date": "2001-04-20",
+        "url": "https://www.ifrc.org/docs/appeals/01/040124.pdf"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Fundamental Principles of the International Red Cross and Red Crescent Movement",
+        "publisher": "ICRC Archives / Cross-Files",
+        "url": "https://blogs.icrc.org/cross-files/the-fundamental-principles-of-the-international-red-cross-and-red-crescent-movement/"
+      },
+      {
+        "title": "Handbook of the International Red Cross and Red Crescent Movement — Vienna 1965 Resolution IX",
+        "publisher": "ICRC",
+        "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/publications/icrc-002-0962.pdf"
+      },
+      {
+        "title": "34th International Conference — Adopted Opening Agenda and Programme",
+        "publisher": "International Red Cross and Red Crescent Movement",
+        "date": "2024-10-28",
+        "url": "https://rcrcconference.org/app/uploads/2025/02/34IC_5-adopted-Agenda-EN-1.pdf"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "The Missing: Proceedings of the 2003 Geneva Conference",
+        "publisher": "ICRC",
+        "date": "2003",
+        "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/other/themissing_conf_03.2003_en_90.pdf"
+      },
+      {
+        "title": "The Missing — ICRC Progress Report, 2006",
+        "publisher": "ICRC",
+        "date": "2006",
+        "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/other/icrc_002_0897.pdf"
+      },
+      {
+        "title": "Humanitarian Forensics — ICRC Programme",
+        "publisher": "ICRC",
+        "url": "https://www.icrc.org/en/what-we-do/humanitarian-forensics"
+      }
+    ]
   }
 };
