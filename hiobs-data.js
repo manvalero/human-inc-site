@@ -441,7 +441,7 @@ const HIOBS_DATA = [
     "system": "Digestive System",
     "systemSlug": "digestive",
     "function": "Finance",
-    "observation": "In the late 1970s, IKEA’s rapid expansion brought the company into a cash-flow crisis.\n\nWhat had sustained its growth no longer could.\n\nResources had to be committed more selectively.\n\nWhat could no longer become fuel was released.\n\nWhat remained energized the whole."
+    "observation": "In August 2023, a €5.4 billion loan used to acquire IKEA’s proprietary rights was extinguished through a shareholder capital contribution.\n\nThe rights remained within Inter IKEA Group. The loan’s €324 million annual interest expense ceased.\n\nWhat had entered through borrowing remained after the borrowing itself was transformed into capital."
   },
   {
     "subject": "IKEA",
