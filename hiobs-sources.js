@@ -137,6 +137,20 @@ const HIOBS_SOURCES = {
         "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52012XC0915%2802%29"
       }
     ],
+    "lymphatic": [
+      {
+        "title": "Planning for the future in the past — Siemens medical equipment take-back and refurbishment",
+        "publisher": "Siemens Healthineers MedMuseum",
+        "date": "July 24, 2024",
+        "url": "https://www.medmuseum.siemens-healthineers.com/en/Sustainability"
+      },
+      {
+        "title": "ecoline: Think economical, act ecological — History of Refurbished Systems",
+        "publisher": "Siemens AG — historical brochure",
+        "date": "2013",
+        "url": "https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000001962489/0bdb931176c3/ecoline-refurbished-systems-122014_1800000001962489.pdf"
+      }
+    ],
     "endocrine": [
       {
         "title": "Siemens 2007 annual report — original amnesty policy",
