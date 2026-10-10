@@ -448,7 +448,7 @@ const HIOBS_DATA = [
     "system": "Muscular System",
     "systemSlug": "muscular",
     "function": "Operations",
-    "observation": "When the Iron Curtain fell, IKEA could no longer manufacture as it had before.\n\nMovement practiced and repeated for three decades no longer held.\n\nAgain and again, IKEA tried to restore production through partnerships, until it began acquiring production companies and factories.\n\nA different motion had to be conditioned."
+    "observation": "After the Iron Curtain fell in 1989, factories IKEA had relied on for decades closed or changed management. Deliveries faltered, and established production arrangements no longer held.\n\nIKEA began acquiring experienced manufacturers and their factories. They became the foundation of Swedwood in 1991. IKEA-owned production facilities followed in Poland in 1992.\n\nWith the factories came the weight of every working day."
   },
   {
     "subject": "IKEA",
