@@ -1302,5 +1302,134 @@ const HIOBS_SOURCES = {
         "url": "https://www.grupobimbo.com/en/about-us/history/1950-1960/birth-marinela"
       }
     ]
+  },
+  "Citigroup": {
+    "nervous": [
+      {
+        "title": "The Financial Crisis Inquiry Report (2011), Chapter 14, pp. 260–262",
+        "publisher": "U.S. Financial Crisis Inquiry Commission / Stanford Law School archive",
+        "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_chapter14.pdf"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "U.S. Commercial Banks and the Developing-Country Debt Crisis (1987)",
+        "publisher": "Brookings Papers on Economic Activity",
+        "url": "https://www.brookings.edu/wp-content/uploads/1987/06/1987b_bpea_sachs_huizinga_shoven.pdf"
+      },
+      {
+        "title": "Citicorp Move May Push Big Banks to Boost Loan-Loss Reserves (21 May 1987)",
+        "publisher": "Los Angeles Times",
+        "url": "https://www.latimes.com/archives/la-xpm-1987-05-21-fi-1667-story.html"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Navigating India's T+0: The Transition from T+2 to T+1",
+        "publisher": "Citi Securities Services",
+        "url": "https://www.citigroup.com/global/insights/navigating-india-t-0"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "Citigroup 2006 Annual Report, Bank at Work, pp. 12 and 19",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/ar06c_en.pdf"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "Citigroup Announces Unified Global Brand Identity (13 February 2007)",
+        "publisher": "Citigroup / WebWire",
+        "url": "https://www.webwire.com/ViewPressRel.asp?aId=27441"
+      },
+      {
+        "title": "Travelers Red Umbrella and Company Name Now Official (26 February 2007)",
+        "publisher": "The Travelers Companies",
+        "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2007/The-Travelers-Companies-Inc-TRV-and-Travelers-Red-Umbrella-Now-Official/default.aspx"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "Citibank Preliminary Talking ATM Agreement (1999)",
+        "publisher": "Citibank / Counsel for Blind Customers",
+        "url": "https://www.lflegal.com/1999/07/citibank-preliminary-talking-atm-agreement/"
+      },
+      {
+        "title": "Citibank Talking ATM Pilot Press Release (1999)",
+        "publisher": "California Council of the Blind / Citibank Advocates",
+        "url": "https://www.lflegal.com/1999/11/citibank-pilot-press-release/"
+      },
+      {
+        "title": "Citibank National Talking ATM Agreement (2001)",
+        "publisher": "Citibank / Counsel for Blind Customers",
+        "url": "https://www.lflegal.com/2001/04/citibank-national-talking-atm-agreement/"
+      }
+    ],
+    "immune": [
+      {
+        "title": "Citi Payment Outlier Detection Launches in 90 Countries (2019)",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/global/news/press-release/2019/citireg-payment-outlier-detection-launches-in-90-countries"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "Citigroup 2021 Resolution Plan — Public Section, Citi Support Agreement",
+        "publisher": "Citigroup / U.S. Federal Reserve",
+        "url": "https://www.federalreserve.gov/supervisionreg/resolution-plans/citigroup-1g-20210701.pdf"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "Citi 2023 Global ESG Report, p. 31",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Global-ESG-Report-2023.pdf"
+      },
+      {
+        "title": "Inside the 1.4M SF Office Retrofit the World Is Watching (30 October 2024)",
+        "publisher": "Bisnow, with Citi project leadership",
+        "url": "https://www.bisnow.com/news/london/office/inside-the-14m-sf-office-retrofit-the-world-is-watching-126554"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Citicorp Expects Loss of About $450 Million (14 January 1992)",
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/archive/business/1992/01/14/citicorp-expects-loss-of-about-450-million/cf287ecf-cb6e-4648-856f-3778d5bfdfbc/"
+      },
+      {
+        "title": "Is Citi Back From the Dead? (1992)",
+        "publisher": "Euromoney",
+        "url": "https://www.euromoney.com/article/27bjsstsqxhkmh1y5f4dm/banking/is-citi-back-from-the-dead/"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "Citi Successfully Pilots Proxymity (2017)",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/global/news/press-release/2017/citi-successfully-pilots-new-digital-platform-to-transform-proxy-voting"
+      },
+      {
+        "title": "Citi and Computershare Launch Proxymity (2018)",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/global/news/press-release/2018/citi-and-computershare-collaborate-to-launch-innovative-digital-platform-for-proxy-voting"
+      },
+      {
+        "title": "Citigroup 2020 Annual Report — Proxymity Spin-off",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/global/investor/quarterly/2021/annual-report"
+      },
+      {
+        "title": "Proxymity — About Us (Market Coverage and Platform)",
+        "publisher": "Proxymity",
+        "url": "https://www.proxymity.io/about-us/"
+      },
+      {
+        "title": "Our Innovation, Your Progress: Citi Services and Proxymity",
+        "publisher": "Citigroup",
+        "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Our_Innovation_Your_Progress_How_Citi_Services_Empowers_Growth_for_Investors_and_Issuers.pdf"
+      }
+    ]
   }
 };
