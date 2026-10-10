@@ -917,7 +917,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "In October 2007, Siemens introduced an amnesty during its corruption investigation. Employees outside senior management who voluntarily disclosed truthful, complete information could be protected from dismissal and Siemens claims for damages.\n\nThe offer was due to end January 31, 2008. By then, 66 employees had come forward. Siemens extended it through February, when applications reached 123.\n\nIn April, individualized leniency followed, including employees previously ineligible for amnesty and those who had not come forward before it ended.\n\nTiming changed the consequence."
+    "observation": "In October 2007, Siemens introduced an amnesty during its corruption investigation. Employees outside senior management who voluntarily disclosed truthful, complete information could be protected from dismissal and Siemens claims for damages.\n\nThe offer was due to end January 31, 2008. Siemens extended it through February, when applications reached 123.\n\nIn April, individualized leniency followed, including employees previously ineligible for amnesty and those who had not come forward before it ended.\n\nTiming changed the consequence."
   },
   {
     "subject": "Siemens AG",
