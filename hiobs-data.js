@@ -140,7 +140,7 @@ const HIOBS_DATA = [
     "system": "Immune System",
     "systemSlug": "immune",
     "function": "Information Technology",
-    "observation": "In November 2015, Dridex malware caused considerable disruption across Oxford.\n\nThe attack revealed a pattern in susceptibility. Seventy percent of those who had fallen for it had not completed the University’s security-awareness training.\n\nDridex became a focus of Oxford’s information-security work.\n\nTwo months later, a variant of the same malware returned with little impact.\n\nThe first encounter had changed what the system could recognize."
+    "observation": "In November 2015, Dridex malware caused considerable disruption across Oxford.\n\nDridex became a focus of Oxford’s information-security work. An emergency briefing reached IT support staff across the University. Improved network monitoring and intrusion detection were also enabling security teams to identify threats more quickly.\n\nTwo months later, a variant of the same malware returned. It was identified quickly, and a coordinated response thwarted the attack.\n\nThe first encounter had changed what the system could recognize."
   },
   {
     "subject": "Oxford University",
