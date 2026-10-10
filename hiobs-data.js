@@ -434,7 +434,7 @@ const HIOBS_DATA = [
     "system": "Circulatory System",
     "systemSlug": "circulatory",
     "function": "Human Resources",
-    "observation": "When more than 8,500 positions became unnecessary, IKEA prepared the affected co-workers for new roles across the organization.\n\nTheir path within IKEA continued.\n\nSupport kept reaching the same people."
+    "observation": "As IKEA introduced its AI customer-service assistant Billie in 2021, Ingka Group began training call-centre co-workers for interior-design advisory roles.\n\nBy June 2023, 8,500 had received that training, while Billie was handling 47% of customer queries to call centres.\n\nNew capabilities were being developed within the existing workforce.\n\nAs work was displaced, support continued to reach the same people."
   },
   {
     "subject": "IKEA",
