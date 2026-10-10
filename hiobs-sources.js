@@ -1643,5 +1643,187 @@ const HIOBS_SOURCES = {
         "url": "https://www.icrc.org/en/what-we-do/humanitarian-forensics"
       }
     ]
-  }
+  },
+    "SONY": {
+      "nervous": [
+        {
+          "title": "Sony Establishes New Management Structure: One Sony",
+          "publisher": "Sony Group",
+          "date": "2012-03-27",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201203/12-043E/"
+        },
+        {
+          "title": "Sony Corporate Strategy Meeting FY2013",
+          "publisher": "Sony Group",
+          "date": "2013-05-22",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201305/13-065E/"
+        },
+        {
+          "title": "Corporate Strategy Meeting FY2014: Television Restructuring",
+          "publisher": "Sony Group",
+          "date": "2014-05-22",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201405/14-054E/"
+        },
+        {
+          "title": "Mid-Term Corporate Strategy FY2015–FY2017: Business Autonomy",
+          "publisher": "Sony Group",
+          "date": "2015-02-18",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201502/15-017E/"
+        }
+      ],
+      "circulatory": [
+        {
+          "title": "Corporate Report 2025: Internal Job Posting Since 1966 (p. 21)",
+          "publisher": "Sony Group",
+          "date": "2025",
+          "url": "https://www.sony.com/en/SonyInfo/IR/library/corporatereport/CorporateReport2025_E.pdf"
+        },
+        {
+          "title": "Made in Japan: Akio Morita and Sony — First Edition, Memoir",
+          "publisher": "Akio Morita / Dutton; catalogued by Open Library",
+          "date": "1986",
+          "url": "https://openlibrary.org/books/OL2718247M/Made_in_Japan"
+        },
+        {
+          "title": "Sony Internal Mobility Programme — Personnel Interview",
+          "publisher": "Recruit Management Solutions",
+          "url": "https://www.recruit-ms.co.jp/issue/case/0000000658/"
+        }
+      ],
+      "digestive": [
+        {
+          "title": "Image Sensor Capacity Investment: ¥60 Billion",
+          "publisher": "Sony Group",
+          "date": "2007-06-06",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/200706/07-059E/"
+        },
+        {
+          "title": "Corporate Strategy Update FY2008–2010: Image Sensor Priority",
+          "publisher": "Sony Group",
+          "date": "2008-06-26",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/200806/08-080E/"
+        },
+        {
+          "title": "Electronics Investment Reduction and Outsourcing",
+          "publisher": "Sony Group",
+          "date": "2008-12-09",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/200812/08-150E/"
+        },
+        {
+          "title": "Image Sensor Capacity Investment: ¥40 Billion",
+          "publisher": "Sony Group",
+          "date": "2010-09-01",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201009/10-113E/"
+        },
+        {
+          "title": "Image Sensor Capacity Investment Plan: ¥100 Billion",
+          "publisher": "Sony Group",
+          "date": "2010-12-27",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201012/10-165E/"
+        }
+      ],
+      "muscular": [
+        {
+          "title": "Ventilator Production Support Team: Procedures and Torque",
+          "publisher": "Sony Group Technology",
+          "date": "2020",
+          "url": "https://www.sony.com/en/SonyInfo/technology/stories/entries/ventilator/"
+        }
+      ],
+      "respiratory": [
+        {
+          "title": "Sony Group History: The PlayStation, CD-ROM Distribution",
+          "publisher": "Sony Group History",
+          "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-09.html"
+        }
+      ],
+      "sensory": [
+        {
+          "title": "Time Capsule Vol. 20: Walkman Naming Worldwide",
+          "publisher": "Sony Group History",
+          "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/capsule/20/"
+        }
+      ],
+      "integumentary": [
+        {
+          "title": "2014 Corporate Strategy: VAIO Market Withdrawal and Continued Customer Support",
+          "publisher": "Sony Group",
+          "date": "2014-05-22",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201405/14-054E/"
+        },
+        {
+          "title": "VAIO Support: Sony-Manufactured Legacy PCs versus VAIO Products",
+          "publisher": "VAIO Corporation",
+          "url": "https://us.vaio.com/pages/support"
+        }
+      ],
+      "immune": [
+        {
+          "title": "Partial PlayStation Network Restoration and Enhanced Security",
+          "publisher": "Sony Group",
+          "date": "2011-05-15",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201105/11-0515E/"
+        },
+        {
+          "title": "Full PSN Restoration Announced: Commerce Function Testing",
+          "publisher": "Sony Group",
+          "date": "2011-05-31",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201105/11-0531E/"
+        },
+        {
+          "title": "Full PSN Restoration Begins",
+          "publisher": "Sony Group",
+          "date": "2011-06-02",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/201106/11-0602E/"
+        }
+      ],
+      "skeletal": [
+        {
+          "title": "Fiscal 2011 Annual Report: Two-Way Spider-Man Merchandising and Film Transaction (p. 12)",
+          "publisher": "The Walt Disney Company",
+          "date": "2011",
+          "url": "https://thewaltdisneycompany.com/app/uploads/2015/10/2011-Annual-Report.pdf"
+        },
+        {
+          "title": "Sony Pictures and Marvel Studios Spider-Man Agreement",
+          "publisher": "Sony Pictures Entertainment",
+          "date": "2015-02-09",
+          "url": "https://dev.sonypictures.com/corp/press_releases/2015/02_15/020915_spiderman.html"
+        }
+      ],
+      "lymphatic": [
+        {
+          "title": "Transformation 60: Part Standardization and Supplier Reduction",
+          "publisher": "Sony Group",
+          "date": "2003-10-28",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/200310/03-047E/"
+        }
+      ],
+      "endocrine": [
+        {
+          "title": "Further Distinction Between Board and Management Duties",
+          "publisher": "Sony Group",
+          "date": "1999-03",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/199903/99-030/"
+        },
+        {
+          "title": "Reforming Sony Group Management Structure to Strengthen Governance",
+          "publisher": "Sony Group",
+          "date": "2003-01",
+          "url": "https://www.sony.com/en/SonyInfo/News/Press/200301/03-004E/"
+        },
+        {
+          "title": "Sony Governance Framework: Outside Directors Majority Since 2005",
+          "publisher": "Sony Group",
+          "url": "https://www.sony.com/en/SonyInfo/csr_report/overview/"
+        }
+      ],
+      "reproductive": [
+        {
+          "title": "Sony Group History: Early Stages of an Imaging Business (122 March 1982 Attendees)",
+          "publisher": "Sony Group History",
+          "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-06.html"
+        }
+      ]
+    }
 };
