@@ -483,7 +483,7 @@ const HIOBS_DATA = [
     "system": "Skeletal System",
     "systemSlug": "skeletal",
     "function": "Legal & Compliance",
-    "observation": "As IKEA expanded internationally, ownership alone was no longer the structure keeping the organization together.\n\nIndependent entities began operating under the IKEA name.\n\nThe IKEA Concept became the common framework through which every franchise took shape.\n\nOne frame connected them all."
+    "observation": "Established in 1983, Inter IKEA Systems B.V. later became the worldwide franchisor of the IKEA Concept.\n\nThrough franchise agreements, separate companies received the right to operate IKEA stores under common trademarks, systems, and methods, while retaining responsibility for their own operations.\n\nBy August 2016, thirteen franchisees operated 389 stores across 48 countries.\n\nOne frame connected them all."
   },
   {
     "subject": "IKEA",
