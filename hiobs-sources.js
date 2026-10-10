@@ -1304,6 +1304,18 @@ const HIOBS_SOURCES = {
     ]
   },
   "Citigroup": {
+    "circulatory": [
+      {
+        "title": "Workplace Solutions for Childcare (2010), p. 124 — Citigroup Backup Care",
+        "publisher": "International Labour Organization",
+        "url": "https://www.ilo.org/publications/workplace-solutions-childcare"
+      },
+      {
+        "title": "Family and Educational Support — Back-Up Child and Elder Care Services",
+        "publisher": "Citi Benefits",
+        "url": "https://www.citibenefits.com/Work-or-Life/Family-and-Educational-Support"
+      }
+    ],
     "nervous": [
       {
         "title": "The Financial Crisis Inquiry Report (2011), Chapter 14, pp. 260–262",
