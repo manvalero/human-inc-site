@@ -28,7 +28,7 @@ const HIOBS_DATA = [
     "system": "Muscular System",
     "systemSlug": "muscular",
     "function": "Operations",
-    "observation": "For every hour astronauts spent servicing Hubble in orbit, ten to sixteen hours were spent preparing on Earth.\n\nIn underwater mock-ups and pressurized suits, body positions, tool transfers, and component replacements were rehearsed repeatedly.\n\nAt Hubble, the rehearsed sequence became steady movement. Each motion held the repetitions that had formed it on the ground."
+    "observation": "For every hour astronauts spent servicing Hubble in orbit, at least ten hours were spent preparing on Earth.\n\nIn underwater mock-ups and pressurized suits, body positions, tool transfers, and component replacements were rehearsed repeatedly.\n\nAt Hubble, the rehearsed sequence became steady movement. Each motion held the repetitions that had formed it on the ground."
   },
   {
     "subject": "NASA",
