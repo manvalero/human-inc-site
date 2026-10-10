@@ -476,7 +476,7 @@ const HIOBS_DATA = [
     "system": "Immune System",
     "systemSlug": "immune",
     "function": "Information Technology",
-    "observation": "As IKEA grew, recognizing every product through a common identity became increasingly difficult.\n\nDifferent parts of the organization could no longer assume they were referring to the same thing.\n\nPIA became the common point through which every article was verified before information continued.\n\nEvery article had to belong."
+    "observation": "Introduced in 1998, IKEA’s Product Information Assistance (PIA) became a central record for product information.\n\nBy 2018, each article carried its own identification number and one of three statuses: created, approved, or sellable.\n\nApproval was entered manually. Only then was the article’s information transmitted to IKEA’s other supply systems.\n\nWithin a common record, each article had to be recognized for itself."
   },
   {
     "subject": "IKEA",
