@@ -350,7 +350,7 @@ const HIOBS_DATA = [
     "system": "Circulatory System",
     "systemSlug": "circulatory",
     "function": "Human Resources",
-    "observation": "In 1966, a young employee told cofounder Akio Morita that he wanted to stay at Sony but could not continue under his section chief.\n\nSony began listing internal openings in its company newspaper, with confidential applications for different work.\n\nMore than 8,000 employees have since changed positions through internal postings across Sony.\n\nMovement replenished Sony from within."
+    "observation": "A young employee told Sony cofounder Akio Morita that he wanted to stay at Sony but could not continue under his section chief.\n\nIn 1966, Sony introduced its internal job-posting system. Openings appeared in the company newspaper, and employees could apply confidentially for different work.\n\nMore than 8,000 employees have since changed positions through internal postings across Sony.\n\nMovement replenished Sony from within."
   },
   {
     "subject": "SONY",
@@ -413,7 +413,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "In 1997, Sony began separating directors from executives, assigning operational management to newly created executive officers.\n\nOver the following years, Sony kept reducing the overlap between the Board and executive management. In 2003, executives were given broader authority over investments, alliances, and other operating matters.\n\nBy 2005, independent directors formed a majority of the Board.\n\nA different balance settled over time."
+    "observation": "In 1997, Sony began separating directors from executives, assigning operational management to newly created executive officers.\n\nOver the following years, Sony kept reducing the overlap between the Board and executive management. In 2003, executives were given broader authority over investments, alliances, and other operating matters.\n\nBy 2005, outside directors formed a majority of the Board.\n\nA different balance settled over time."
   },
   {
     "subject": "SONY",
