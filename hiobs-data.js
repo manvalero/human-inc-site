@@ -700,7 +700,7 @@ const HIOBS_DATA = [
     "system": "Muscular System",
     "systemSlug": "muscular",
     "function": "Operations",
-    "observation": "Between February 2022 and January 2023, India phased listed equities from T+2 to T+1 settlement.\n\nThe new cycle required custodian confirmations by 7:30 a.m.\n\nIn India, Citigroup moved its morning shift from 9:00 a.m. to 4:00 a.m.\n\nThe same completion required a different movement."
+    "observation": "Between February 2022 and January 2023, India phased listed equities from T+2 to T+1 settlement.\n\nThe new cycle required custodian confirmations by 7:30 a.m.\n\nIn India, Citi introduced a 4:00 a.m. working shift to support the earlier confirmation deadline.\n\nThe same completion required a different movement."
   },
   {
     "subject": "Citigroup",
