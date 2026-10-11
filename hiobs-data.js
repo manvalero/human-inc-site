@@ -308,7 +308,7 @@ const HIOBS_DATA = [
     "system": "Immune System",
     "systemSlug": "immune",
     "function": "Information Technology",
-    "observation": "The 2026 FIFA World Cup welcomed millions of people from every continent while remaining unmistakably itself.\n\nCredentials were verified, legitimate participation moved forward without interruption. Irregular activity was filtered.\n\nIt remained open by recognizing what belonged."
+    "observation": "During the 2026 FIFA World Cup, FIFA's Social Media Protection Service examined more than 17 million posts and comments concerning monitored players, coaches and match officials.\n\nAutomated screening referred 477,217 for human review. Analysts verified 240,676 as abusive and reported them to social media platforms.\n\nAt the account level, 232 serious cases were prioritized for investigation. Further assessment of sender locations and other circumstances led to 145 being de-escalated.\n\nThe remaining 87 underwent deeper investigation. Thirty accounts were positively identified for action."
   },
   {
     "subject": "2026 FIFA World Cup",
