@@ -280,7 +280,7 @@ const HIOBS_DATA = [
     "system": "Muscular System",
     "systemSlug": "muscular",
     "function": "Operations",
-    "observation": "The 2026 FIFA World Cup relied on every pitch withstanding repeated play across different climates and continual use.\n\nAfter every match, each surface was repaired, conditioned, and prepared to perform again."
+    "observation": "For the 2026 FIFA World Cup, Dallas Stadium installed natural grass four and a half feet above its usual playing surface. Indoors, the grass depended on growing lights between matches.\n\nAfter each game, the grounds crew cleared debris, repaired divots, and returned the lights. On match days, they cut the grass two or three times and watered it before kickoff and at halftime.\n\nDallas hosted nine matches across more than four weeks, ending with the France–Spain semifinal.\n\nEach match left work that had to be completed before the next."
   },
   {
     "subject": "2026 FIFA World Cup",
