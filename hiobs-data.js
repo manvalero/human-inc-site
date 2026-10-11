@@ -315,7 +315,7 @@ const HIOBS_DATA = [
     "system": "Skeletal System",
     "systemSlug": "skeletal",
     "function": "Legal & Compliance",
-    "observation": "The 2026 FIFA World Cup expanded to forty-eight teams, adding another knockout round.\n\nUnder previous tournament rules, single yellow cards were cleared only after the quarter-finals. With more matches to accommodate, FIFA amended the regulations on April 28.\n\nIndividual cautions would now be cleared after the group stage and again after the quarter-finals. Two cautions in different matches before a clearance could still result in a one-match suspension.\n\nA player entering the round of 32 with a single group-stage caution would no longer carry it forward."
+    "observation": "The 2026 FIFA World Cup expanded to forty-eight teams, adding another knockout round.\n\nUnder previous tournament rules, single yellow cards were cleared only after the quarter-finals. To accommodate the added round, FIFA approved an amendment on April 28.\n\nSingle cautions would now be cleared after the group stage and again after the quarter-finals. Two cautions in different matches before a clearance still triggered an automatic one-match suspension.\n\nA player entering the round of 32 with a single group-stage caution would no longer carry it forward."
   },
   {
     "subject": "2026 FIFA World Cup",
@@ -329,7 +329,7 @@ const HIOBS_DATA = [
     "system": "Endocrine System",
     "systemSlug": "endocrine",
     "function": "Governance",
-    "observation": "The 2026 FIFA World Cup began within conditions established long before the first match.\n\nHydration breaks interrupted play, additional minutes extended familiar limits, and officiating technology altered when decisions became final.\n\nThe tournament changed because its conditions had changed first."
+    "observation": "On December 7, 2025, FIFA announced that every 2026 World Cup match would include two three-minute hydration breaks, regardless of weather or stadium roof.\n\nEarlier cooling breaks had depended on heat. During the tournament, referees paused play around the 22nd and 67th minutes, with the interruptions added to stoppage time.\n\nFIFA said the uniform breaks gave coaches the same opportunity to address their players in every match. A coach in a cool stadium now had the same interval as one working in extreme heat."
   },
   {
     "subject": "2026 FIFA World Cup",
