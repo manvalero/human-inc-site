@@ -287,7 +287,7 @@ const HIOBS_DATA = [
     "system": "Respiratory System",
     "systemSlug": "respiratory",
     "function": "Sales",
-    "observation": "The 2026 FIFA World Cup existed through continuous exchange with the world around it.\n\nMatch after match, people gathered, hospitality welcomed, commerce traded, and expectation settled before kickoff. The game delivered the experience.\n\nThen another match drew the world in once more."
+    "observation": "During the 2026 FIFA World Cup, thirteen Fan Festivals operated across three countries over 39 tournament days.\n\nMexico City’s Zócalo opened on 36 days; Atlanta’s Centennial Olympic Park on 16. Each opening offered live matches, food, drinks and merchandise. Across the festivals, more than 6.3 million food-and-beverage items were sold.\n\nAs demand grew, Miami and Toronto added dates to their programmes.\n\nAcross 348 combined operating days, the recurring exchange welcomed more than nine million visits."
   },
   {
     "subject": "2026 FIFA World Cup",
