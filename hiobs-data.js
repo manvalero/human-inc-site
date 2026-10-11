@@ -294,7 +294,7 @@ const HIOBS_DATA = [
     "system": "Sensory System",
     "systemSlug": "sensory",
     "function": "Marketing",
-    "observation": "The 2026 FIFA World Cup was experienced across three countries and sixteen cities, each with its own atmosphere.\n\nLong before kickoff, every city projected its own perception of the same tournament."
+    "observation": "During the 2026 FIFA World Cup, researchers at Gensler and ROAR examined hundreds of thousands of fan posts connected to the sixteen host stadiums.\n\nAcross every venue, posts from surrounding public spaces used “we,” “our,” and “us” 70% more often than posts from inside the stadiums.\n\nWhen posts contained words associated with awe or wonder, collective language appeared 189% more often, regardless of location.\n\nThe gathering had another voice just beyond the stands."
   },
   {
     "subject": "2026 FIFA World Cup",
