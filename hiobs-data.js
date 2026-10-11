@@ -273,7 +273,7 @@ const HIOBS_DATA = [
     "system": "Digestive System",
     "systemSlug": "digestive",
     "function": "Finance",
-    "observation": "The 2026 FIFA World Cup took in sponsorship, public investment, tourism, infrastructure, labor, and global attention at extraordinary scale.\n\nAs the tournament unfolded, those resources were absorbed, assimilated where they could serve, or quietly passed through."
+    "observation": "For the 2022 World Cup, FIFA’s $209 million Club Benefits Programme compensated clubs linked to players who reached the tournament. Qualifying appearances alone generated no payment.\n\nFor 2026, FIFA increased the fund to $355 million and established two calculations: $100 million for qualifying appearances, measured per player per match, and $250 million for World Cup participation, measured per player per day. Another $5 million remained reserved.\n\nA national team could finish its journey in qualification.\n\nIts clubs’ contribution no longer needed a later result to count."
   },
   {
     "subject": "2026 FIFA World Cup",
