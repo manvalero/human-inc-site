@@ -259,7 +259,7 @@ const HIOBS_DATA = [
     "system": "Nervous System",
     "systemSlug": "nervous",
     "function": "Executive Leadership",
-    "observation": "Storms delayed matches during the 2026 FIFA World Cup.\n\nThe disruption moved across the tournament, and the latest signal changed with it.\n\nThe circuit was complete only when players, officials, broadcasters, volunteers, and supporters had all adjusted to the same update, allowing the tournament to hold as one."
+    "observation": "On 5 July 2026, thunderstorms threatened Mexico’s World Cup match against England.\n\nWarnings appeared on the stadium screens. Personnel working on the pitch were directed into the tunnel. FIFA postponed kickoff from 6:00 to 7:00 p.m., Mexico City time, and announced the change.\n\nPlayers waited. Supporters received warnings. The match began at the revised hour.\n\nThe decision was made once. It had to reach many places."
   },
   {
     "subject": "2026 FIFA World Cup",
