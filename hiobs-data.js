@@ -336,7 +336,7 @@ const HIOBS_DATA = [
     "system": "Reproductive System",
     "systemSlug": "reproductive",
     "function": "Research & Development",
-    "observation": "This tournament contained more than its own conclusion.\n\nBefore the Final, the 2030 FIFA World Cup was already taking shape across six nations and three continents.\n\nThe 2026 FIFA World Cup had already become an ancestor."
+    "observation": "At the 2022 FIFA World Cup, representatives preparing the 2026 edition joined an Observer Programme to examine how the tournament was delivered.\n\nFour years later, the 2026 World Cup received delegations preparing 2030. Between June 18 and July 9, they visited stadiums, tournament operations and broadcast facilities in Dallas and Miami, attended briefings and observed matches. Specialists from more than thirty FIFA areas explained the decisions behind staging the first 48-team World Cup.\n\nThe 2030 edition would span six countries and three continents. Before 2026 was over, its future hosts had begun learning from it.\n\nThe 2026 FIFA World Cup had already become an ancestor."
   },
   {
     "subject": "SONY",
