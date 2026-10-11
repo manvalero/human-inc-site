@@ -1949,6 +1949,7 @@ body {
   aspect-ratio: 6 / 5;
   object-fit: cover;
   object-position: center 46%;
+  border-radius: 14px;
 }
 
 .about-founder-copy {
