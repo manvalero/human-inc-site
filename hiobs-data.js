@@ -322,7 +322,7 @@ const HIOBS_DATA = [
     "system": "Lymphatic System",
     "systemSlug": "lymphatic",
     "function": "Procurement & Supply Chain",
-    "observation": "The 2026 FIFA World Cup temporarily assembled everything required to stage more than one hundred matches across sixteen host cities.\n\nAs each city completed its role, the temporary layer surrounding the tournament was cleared, making it available to support the next.\n\nNothing remained beyond its purpose."
+    "observation": "Across sixteen host cities, the 2026 FIFA World Cup operated through 645 official sites.\n\nIts sustainability strategy called for the reuse of temporary infrastructure, signage and other tournament assets after the competition.\n\nOn July 8, while the tournament was still underway, FIFA reported that USD 5 million worth of field-of-play and training equipment had been distributed to stadiums, training sites and venues as legacy items. These included goals, nets, corner flags, cones and mini-goals.\n\nSome of the equipment's use beyond the tournament had been considered before the tournament itself had ended."
   },
   {
     "subject": "2026 FIFA World Cup",
