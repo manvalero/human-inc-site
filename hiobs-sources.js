@@ -1825,5 +1825,175 @@ const HIOBS_SOURCES = {
           "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-06.html"
         }
       ]
-    }
+    },
+  "IKEA": {
+    "nervous": [
+      {
+        "title": "Too big in Japan — the first attempt (1974–1986)",
+        "publisher": "IKEA Museum",
+        "date": "2024-11-12",
+        "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/too-big-in-japan/"
+      },
+      {
+        "title": "Retail revival in Japan — research and the 2006 return",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/retail-revival-in-japan/"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "AI and Remote Selling bring IKEA design expertise to the many",
+        "publisher": "Ingka Group",
+        "date": "2023-06-29",
+        "url": "https://www.ingka.com/newsroom/ai-and-remote-selling-bring-ikea-design-expertise-to-the-many/"
+      },
+      {
+        "title": "IKEA bets on remote interior design as AI changes sales strategy",
+        "publisher": "Reuters (syndicated by Investing.com)",
+        "date": "2023-06-13",
+        "url": "https://www.investing.com/news/stock-market-news/ikea-bets-on-remote-interior-design-as-ai-changes-sales-strategy-3103782"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "Inter IKEA Holding B.V. Annual Report FY23 — capital contribution and proprietary rights, pp. 6, 38–39",
+        "publisher": "Inter IKEA Holding B.V.",
+        "date": "2023",
+        "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/inter-ikea-holding-bv-annual-report-fy23-final.pdf"
+      },
+      {
+        "title": "Inter IKEA Group Financial Summary FY24 — €324m annual interest expense, p. 10",
+        "publisher": "Inter IKEA Group",
+        "date": "2024",
+        "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/fy24-financial-reports/inter_ikea_group_financial_summary_fy24.pdf"
+      },
+      {
+        "title": "Inter IKEA Holding B.V. Annual Report FY24 — retained proprietary rights, pp. 6, 33, 44",
+        "publisher": "Inter IKEA Holding B.V.",
+        "date": "2024",
+        "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/fy24-financial-reports/inter-ikea-holding-bv-annual-report-fy24.pdf"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "Everything falls apart — IKEA sourcing after the Iron Curtain and Swedwood",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/everything-falls-apart/"
+      },
+      {
+        "title": "About IKEA Industry Poland — first production facilities in 1992",
+        "publisher": "IKEA Global",
+        "url": "https://www.ikea.com/global/en/jobs/industry/poland/"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "The world’s biggest restaurant — 1953 showroom, 1958 coffee corner, 1960 IKEA Baren",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/the-worlds-biggest-restaurant/"
+      },
+      {
+        "title": "Our history — Well-fed customers are happy customers",
+        "publisher": "IKEA US",
+        "url": "https://www.ikea.com/us/en/this-is-ikea/about-us/from-humble-origins-to-global-brand-a-brief-history-of-ikea-pubad29a981/"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "Home sweet homes — the 1986–87 living-room study and later home visits",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/home-sweet-homes/"
+      },
+      {
+        "title": "Life at home: the 1980s — historical furnishing context",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/life-at-home/life-at-home-1980s/"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "Maybe furniture? — the 1953 showroom and customer complaints",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/maybe-furniture/"
+      },
+      {
+        "title": "The first IKEA store — the Älmhult showroom and later store",
+        "publisher": "IKEA Museum",
+        "url": "https://www.ikeamuseum.com/en/explore/the-story-of-ikea/the-first-ikea-store/"
+      }
+    ],
+    "immune": [
+      {
+        "title": "Information technology at IKEA: an ‘open sesame’ solution or just another type of facility? — PIA introduced in 1998 (p. 1255)",
+        "publisher": "Baraldi & Waluszewski, Journal of Business Research (author article PDF mirrored by Bluestone)",
+        "date": "2005",
+        "url": "https://www.bluestonepim.com/hubfs/Bluestone_Feb2022/pdf/10.1.1.159.2209.pdf"
+      },
+      {
+        "title": "The Impact of Omni-Channel Retailing on Demand Planning for New Products at IKEA — PIA statuses (pp. 49–50)",
+        "publisher": "Persson & Wilhelmsson, Lund University",
+        "date": "2018",
+        "url": "https://lup.lub.lu.se/student-papers/record/8957979/file/8957981.pdf"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "Inter IKEA Group Financial Summary FY16 — 1983 franchisor and FY2016 franchise figures (p. 4)",
+        "publisher": "Inter IKEA Group",
+        "date": "2016",
+        "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/inter-ikea-group-financial-summary-fy16.pdf"
+      },
+      {
+        "title": "Inter IKEA Holding B.V. Annual Report FY16 — franchisee responsibilities (p. 3)",
+        "publisher": "Inter IKEA Holding B.V.",
+        "date": "2016",
+        "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/inter-ikea-holding-bv-annual-report-fy16.pdf"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "IKEA Sustainability Report 2010 — wooden-pallet decision and return journeys (p. 79)",
+        "publisher": "IKEA Group",
+        "date": "2010",
+        "url": "https://www.ikea.com/ie/en/files/pdf/3c/0b/3c0b1af7/ikea-2010-sustainability-report.pdf"
+      },
+      {
+        "title": "IKEA Group Yearly Summary FY13 — global transport network pallet transition (p. 6)",
+        "publisher": "IKEA Group / Ingka Group archive",
+        "date": "2013",
+        "url": "https://assets.site.ingka.com/ingka-old/wp-content/uploads/2020/01/IKEA-Group-Yearly-Summary-FY13.pdf"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "IKEA culture and values — the 1976 Testament and 1985 IKEA Way programme",
+        "publisher": "Inter IKEA Group",
+        "url": "https://www.inter.ikea.com/en/how-we-do-business/ikea-culture-and-values"
+      },
+      {
+        "title": "The Testament of a Furniture Dealer — the nine points and reasons for publication",
+        "publisher": "IKEA Museum",
+        "url": "https://www.ikeamuseum.com/en/explore/the-story-of-ikea/the-testament-of-a-furniture-dealer/"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "BILLY — 1975 Arne Hall factory visit, Gillis Lundgren sketch, and 1979 catalogue",
+        "publisher": "IKEA Museum",
+        "url": "https://ikeamuseum.com/en/explore/product-stories/billy-bookcase-1979/"
+      },
+      {
+        "title": "Nya BILLY bokhylla är en älskad vän, pånyttfödd igen — glass doors in 1993 and 2022 redesign (Swedish)",
+        "publisher": "IKEA Sweden",
+        "date": "2022-05-24",
+        "url": "https://www.ikea.com/se/sv/newsroom/range-news/nya-billy-bokhylla-aer-en-aelskad-vaen-panyttfoedd-igen-pub76e74c60/"
+      },
+      {
+        "title": "IKEA BILLY bookcase stands the test of time — 2022 snap fittings and paper foil",
+        "publisher": "IKEA Australia",
+        "date": "2023-06-29",
+        "url": "https://www.ikea.com/au/en/newsroom/range-news/ikea-billy-bookcase-stands-the-test-of-time-pub8a9efdd0/"
+      }
+    ]
+  }
 };
