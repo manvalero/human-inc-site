@@ -3,6 +3,202 @@
 // Research caveats and provenance notes remain in the internal source register.
 
 const HIOBS_SOURCES = {
+  "2026 FIFA World Cup": {
+    "nervous": [
+      {
+        "title": "England vs Mexico kick-off delayed as FIFA issues statement",
+        "publisher": "Evening Standard",
+        "date": "2026-07-05",
+        "url": "https://www.standard.co.uk/sport/football/england-vs-mexico-kick-off-delayed-b1288865.html"
+      },
+      {
+        "title": "Thunderstorms delay England’s World Cup tie against Mexico",
+        "publisher": "ITV News / Press Association",
+        "date": "2026-07-06",
+        "url": "https://www.itv.com/news/2026-07-05/thunderstorms-delay-englands-world-cup-tie-against-mexico"
+      },
+      {
+        "title": "Shelter order in place at Azteca Stadium ahead of Mexico v England",
+        "publisher": "Reuters / Channel NewsAsia",
+        "date": "2026-07-05",
+        "url": "https://www.channelnewsasia.com/sport/shelter-order-in-place-azteca-stadium-ahead-mexico-v-england-game-6233631"
+      }
+    ],
+    "circulatory": [
+      {
+        "title": "FIFA World Cup 2026 by the numbers: unprecedented tournament operations",
+        "publisher": "FIFA",
+        "date": "2026-07-27",
+        "url": "https://inside.fifa.com/organisation/media-releases/world-cup-2026-numbers-unprecedented-operation-behind-biggest-sporting-event-history"
+      },
+      {
+        "title": "Vibrant and unifying FIFA World Cup 2026 volunteer uniform revealed",
+        "publisher": "FIFA",
+        "date": "2026-04-28",
+        "url": "https://inside.fifa.com/tournament-organisation/volunteers/media-releases/vibrant-unifying-world-cup-2026-volunteer-uniform-revealed"
+      },
+      {
+        "title": "Houston volunteers express frustration with World Cup experience",
+        "publisher": "Chron",
+        "date": "2026-07-12",
+        "url": "https://www.chron.com/sports/article/fifa-houston-world-cup-volunteers-22339123.php"
+      }
+    ],
+    "digestive": [
+      {
+        "title": "FIFA distributes more than USD 200 million to clubs across the world",
+        "publisher": "FIFA",
+        "date": "2022-10-11",
+        "url": "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022/media-releases/fifa-distributes-more-than-usd-200m-to-clubs-across-the-world"
+      },
+      {
+        "title": "FIFA Circular No. 1965: World Cup 2026 Club Benefits Programme",
+        "publisher": "FIFA",
+        "date": "2026-06-05",
+        "url": "https://digitalhub.fifa.com/asset/d822f904-86ac-40a4-8278-233a9c03b683/Circular-no-1965_FIFA-World-Cup-2026-Club-Benefits-Programme.pdf"
+      },
+      {
+        "title": "FIFA shares details on landmark Club Benefits Programme for 2026",
+        "publisher": "FIFA",
+        "date": "2026-06-05",
+        "url": "https://ipt.fifa.com/organisation/media-releases/landmark-club-benefits-programme-world-cup-2026"
+      }
+    ],
+    "muscular": [
+      {
+        "title": "How crews keep Dallas Stadium’s indoor grass at an elite level",
+        "publisher": "FOX 4 Dallas-Fort Worth",
+        "date": "2026-06-29",
+        "url": "https://www.fox4news.com/sports/dallas-stadium-live-grass"
+      },
+      {
+        "title": "Dallas pitch ready for last hurrah after nine matches and years of research",
+        "publisher": "Reuters / MWC Syndication",
+        "date": "2026-07-12",
+        "url": "https://d2233.cms.socastsrm.com/2026/07/12/soccer-dallas-pitch-ready-for-last-hurrah-after-nine-matches-and-years-of-research/"
+      },
+      {
+        "title": "Spain beat France in semi-final thriller to conclude Dallas World Cup",
+        "publisher": "FIFA",
+        "url": "https://ipt.fifa.com/organisation/news/dallas-stadium-messi-haaland-unai-simon-record-spain-france"
+      }
+    ],
+    "respiratory": [
+      {
+        "title": "FIFA Fan Festival extends World Cup 2026 experience with record celebrations",
+        "publisher": "FIFA",
+        "date": "2026-07-27",
+        "url": "https://inside.fifa.com/organisation/media-releases/fan-festival-extends-historic-world-cup-2026-experience-millions-record-breaking-celebrations-host-countries"
+      }
+    ],
+    "sensory": [
+      {
+        "title": "The Fandom Effect: Sports Urbanism 2026",
+        "publisher": "Gensler Research Institute",
+        "url": "https://www.gensler.com/gri/sports-urbanism-2026"
+      },
+      {
+        "title": "Research finds public space around stadiums is where crowds become communities",
+        "publisher": "Gensler / ROAR / Oxford Economics",
+        "date": "2026-10-07",
+        "url": "https://www.gensler.com/press-releases/fandom-effect-sports-urbanism-report"
+      }
+    ],
+    "integumentary": [
+      {
+        "title": "FIFA prohibits fans from bringing refillable water bottles into World Cup stadiums",
+        "publisher": "Associated Press / KSL",
+        "date": "2026-06-04",
+        "url": "https://www.ksl.com/article/51507163/fifa-prohibits-fans-from-bringing-refillable-water-bottles-into-world-cup-stadiums"
+      },
+      {
+        "title": "FIFA to allow factory-sealed disposable water bottles into World Cup stadiums",
+        "publisher": "Associated Press / KSL",
+        "date": "2026-06-05",
+        "url": "https://www.ksl.com/article/51507679/fifa-to-allow-factory-sealed-disposable-water-bottles-into-world-cup-stadiums"
+      }
+    ],
+    "immune": [
+      {
+        "title": "FIFA World Cup 2026: Social Media Protection Service full-tournament report",
+        "publisher": "FIFA / Signify Group",
+        "url": "https://digitalhub.fifa.com/asset/ea614feb-8642-4f24-ab85-9184118e656f/FIFA-World-Cup-2026-SMPS-Tournament-Threat-Matrix-Report.pdf"
+      },
+      {
+        "title": "FIFA shares Social Media Protection Service findings for World Cup 2026",
+        "publisher": "FIFA",
+        "date": "2026-10-09",
+        "url": "https://vod.fifa.com/campaigns/no-discrimination/media-releases/mental-health-day-social-media-protection-service-world-cup"
+      }
+    ],
+    "skeletal": [
+      {
+        "title": "FIFA Council confirms expanded-tournament yellow-card reset amendment",
+        "publisher": "FIFA Council",
+        "date": "2026-04-28",
+        "url": "https://inside.fifa.com/organisation/fifa-council/media-releases/council-increases-record-financial-distribution-member-associations-world-cup-2026"
+      },
+      {
+        "title": "FIFA enacts new World Cup yellow-card rule to reduce suspensions",
+        "publisher": "Associated Press / WTOP",
+        "date": "2026-04-28",
+        "url": "https://wtop.com/sports/2026/04/fifa-proposes-new-world-cup-rule-on-yellow-cards-to-help-avoid-player-bans-in-knockout-rounds/"
+      }
+    ],
+    "lymphatic": [
+      {
+        "title": "FIFA World Cup 2026 by the numbers: tournament sites and operations",
+        "publisher": "FIFA",
+        "date": "2026-07-27",
+        "url": "https://inside.fifa.com/organisation/media-releases/world-cup-2026-numbers-unprecedented-operation-behind-biggest-sporting-event-history"
+      },
+      {
+        "title": "World Cup 2026 Sustainability and Human Rights Strategy: environmental pillar",
+        "publisher": "FIFA",
+        "url": "https://inside.fifa.com/tournament-organisation/world-cup-2026-sustainability-strategy/environmental-pillar"
+      },
+      {
+        "title": "World Cup 2026 mid-tournament operational report: legacy equipment",
+        "publisher": "FIFA",
+        "date": "2026-07-08",
+        "url": "https://inside.fifa.com/organisation/media-releases/packed-stadiums-record-digital-reach-world-cup-2026-numbers-unprecedented-scale"
+      }
+    ],
+    "endocrine": [
+      {
+        "title": "Players to benefit from hydration breaks at World Cup 2026",
+        "publisher": "FIFA",
+        "date": "2025-12-07",
+        "url": "https://inside.fifa.com/organisation/news/hydration-breaks-world-cup-2026-player-welfare"
+      },
+      {
+        "title": "FIFA confirms universal hydration-break implementation during World Cup",
+        "publisher": "FIFA",
+        "date": "2026-06-23",
+        "url": "https://inside.fifa.com/organisation/president/news/gianni-infantino-world-cup-2026-record-attendances-water-breaks"
+      }
+    ],
+    "reproductive": [
+      {
+        "title": "FIFA Observer Programme gives insight into delivering a successful World Cup",
+        "publisher": "FIFA",
+        "date": "2022-12-07",
+        "url": "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022/news/fifa-observer-programme-gives-invaluable-insight-into-delivering-a"
+      },
+      {
+        "title": "Observer Programme gives future hosts first-hand insight into World Cup delivery",
+        "publisher": "FIFA",
+        "date": "2026-07-21",
+        "url": "https://inside.fifa.com/organisation/news/observer-programme-brazil-2027-world-cups-2030-2034"
+      },
+      {
+        "title": "Extraordinary FIFA Congress appoints hosts of 2030 and 2034 World Cups",
+        "publisher": "FIFA",
+        "date": "2024-12-11",
+        "url": "https://inside.fifa.com/organisation/congress/media-releases/extraordinary-congress-appoints-hosts-of-2030-and-2034-editions-of-fifa-world-cup"
+      }
+    ]
+  },
   "NASA": {
     "nervous": [
       {
