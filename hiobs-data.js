@@ -266,7 +266,7 @@ const HIOBS_DATA = [
     "system": "Circulatory System",
     "systemSlug": "circulatory",
     "function": "Human Resources",
-    "observation": "The 2026 FIFA World Cup asked thousands of volunteers to sustain the experience of millions.\n\nTheir ability to keep giving depended on whether support kept reaching them with the same continuity they extended to everyone else."
+    "observation": "More than 43,000 volunteers helped deliver the 2026 FIFA World Cup. FIFA arranged training, uniforms and meals during their shifts.\n\nIn Houston, where 4,190 volunteers were selected, some later reported missed breaks, food that did not accommodate dietary restrictions, and long walks to parking after late shifts. The host committee said drinking water was available at designated locations.\n\nThose sustaining the tournament still had needs that its provisions had not fully reached."
   },
   {
     "subject": "2026 FIFA World Cup",
