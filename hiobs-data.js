@@ -315,7 +315,7 @@ const HIOBS_DATA = [
     "system": "Skeletal System",
     "systemSlug": "skeletal",
     "function": "Legal & Compliance",
-    "observation": "The 2026 FIFA World Cup expanded to forty-eight teams and more than one hundred matches across three countries.\n\nEvery stage already connected to the next before the first match began.\n\nIts growth had already been structured."
+    "observation": "The 2026 FIFA World Cup expanded to forty-eight teams, adding another knockout round.\n\nUnder previous tournament rules, single yellow cards were cleared only after the quarter-finals. With more matches to accommodate, FIFA amended the regulations on April 28.\n\nIndividual cautions would now be cleared after the group stage and again after the quarter-finals. Two cautions in different matches before a clearance could still result in a one-match suspension.\n\nA player entering the round of 32 with a single group-stage caution would no longer carry it forward."
   },
   {
     "subject": "2026 FIFA World Cup",
