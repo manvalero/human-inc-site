@@ -301,7 +301,7 @@ const HIOBS_DATA = [
     "system": "Integumentary System",
     "systemSlug": "integumentary",
     "function": "Customer Care",
-    "observation": "Millions of people encountered the 2026 FIFA World Cup through thousands of points of contact.\n\nEach adapted to different needs while protecting access to the whole experience."
+    "observation": "Before the 2026 FIFA World Cup, stadium rules allowed spectators to bring empty, transparent reusable water bottles of up to one litre.\n\nOn June 4, FIFA withdrew that allowance, citing the risk of bottles being thrown. Supporters objected, raising concerns over drinking water access during summer heat.\n\nThe next day, FIFA revised the rules for matches in the United States and Canada. Each spectator could bring one factory-sealed, soft-plastic disposable water bottle of up to 590 ml.\n\nReusable bottles remained prohibited."
   },
   {
     "subject": "2026 FIFA World Cup",
