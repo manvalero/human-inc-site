@@ -21,7 +21,7 @@ for(const row of manifest.entries){
  assert.equal(refs?.length,row.citationCount);
  const page=read(row.path);
  assert.ok(page.includes(item.observation.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;")), "Canonical observation altered "+row.path);
- for(const ref of refs) assert.ok(page.includes(ref.url.replaceAll("&","&amp;")),"Citation missing "+ref.url);
+ for(const ref of refs) assert.ok(page.includes(ref.url.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;")),"Citation missing "+ref.url);
  assert.ok(page.includes(row.url),"Missing exact canonical URL");
  assert.ok(page.includes("https://humanincpractice.com/"+row.imagePath),"Missing precise preview URL");
  assert.ok(page.includes("../../../hiobs.html?subject="),"Missing original HIOBS return link");
