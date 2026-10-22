@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 root = Path(__file__).resolve().parents[1]
 css = (root / "styles.css").read_text(encoding="utf-8")
 def css_color(name):
-    match = re.search(r"--" + re.escape(name) + r":\\s*(#[0-9a-fA-F]{6})\\s*;", css)
+    match = re.search(r"--" + re.escape(name) + r":\s*(#[0-9a-fA-F]{6})\s*;", css)
     if not match:
         raise ValueError(f"Missing system palette variable: {name}")
     return match.group(1)
