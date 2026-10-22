@@ -44,13 +44,6 @@ const SYSTEM_ORDER = [
 
 let currentMode = "subject";
 let currentSelection = null;
-// Only the approved prototype has a published endpoint.
-function prototypeLink(item) {
-  return item.subject === "ROLEX" && item.systemSlug === "immune"
-    ? "https://humanincpractice.com/observations/rolex/immune/"
-    : null;
-}
-
 
 
 /* =========================================================
@@ -123,7 +116,6 @@ function renderSelectors() {
       if (value === currentSelection) {
         button.classList.add("active");
       }
-      button.setAttribute("aria-pressed", String(value === currentSelection));
 
       button.addEventListener("click", () => {
 
@@ -172,15 +164,11 @@ function renderGrid() {
 
     card.className =
       `observation-card system-${item.systemSlug}`;
-    card.dataset.observationKey = `${item.subject}|${item.systemSlug}`;
-    const bodyId = `hiobs-body-${SUBJECT_ORDER.indexOf(item.subject)}-${item.systemSlug}`;
 
     card.innerHTML = `
       <button
         class="observation-card-trigger"
         type="button"
-        aria-expanded="false"
-        aria-controls="${bodyId}"
       >
 
         <div class="observation-card-heading">
@@ -197,7 +185,7 @@ function renderGrid() {
 
       </button>
 
-      <div class="observation-card-body" id="${bodyId}">
+      <div class="observation-card-body">
         <p>${item.observation}</p>
       </div>
     `;
@@ -247,32 +235,12 @@ function renderGrid() {
       card.querySelector(".observation-card-body").appendChild(footer);
     }
 
-    const publishedUrl = prototypeLink(item);
-    if (publishedUrl) {
-      const shareRegion = document.createElement("div");
-      shareRegion.className = "observation-share-region";
-      const shareButton = document.createElement("button");
-      shareButton.className = "observation-share-button";
-      shareButton.type = "button";
-      shareButton.textContent = navigator.share ? "Share" : "Copy link";
-      shareButton.setAttribute("aria-label", `Share ${item.subject} ${item.system} observation`);
-      const status = document.createElement("span");
-      status.className = "observation-share-status";
-      status.setAttribute("aria-live", "polite");
-      shareButton.addEventListener("click", () => {
-        HIOBSShare.share(publishedUrl, `${item.subject} — ${item.system} | Human Inc. Observations`, status);
-      });
-      shareRegion.append(shareButton, status);
-      card.querySelector(".observation-card-body").appendChild(shareRegion);
-    }
-
     const trigger = card.querySelector(
       ".observation-card-trigger"
     );
 
     trigger.addEventListener("click", () => {
-      const expanded = card.classList.toggle("open");
-      trigger.setAttribute("aria-expanded", String(expanded));
+      card.classList.toggle("open");
     });
 
     grid.appendChild(card);
@@ -298,13 +266,8 @@ modeButtons.forEach(button => {
       );
     });
 
-    modeButtons.forEach(btn => btn.setAttribute("aria-pressed", String(btn.dataset.mode === currentMode)));
     renderSelectors();
     renderGrid();
-
-    if (button.closest(".hiobs-bottom-controls")) {
-      grid.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
 
   });
 
@@ -315,32 +278,5 @@ modeButtons.forEach(button => {
    INITIAL STATE
    ========================================================= */
 
-// A static observation page links here to reopen the corresponding card.
-const params = new URLSearchParams(window.location.search);
-const requestedSubject = params.get("subject");
-const requestedSystem = params.get("system");
-const directObservation = requestedSubject && requestedSystem
-  ? HIOBS_DATA.find(item => item.subject === requestedSubject && item.systemSlug === requestedSystem)
-  : null;
-if (directObservation) {
-  currentMode = "subject";
-  currentSelection = directObservation.subject;
-}
-modeButtons.forEach(btn => btn.setAttribute("aria-pressed", String(btn.dataset.mode === currentMode)));
 renderSelectors();
 renderGrid();
-if (directObservation) {
-  const card = [...grid.querySelectorAll(".observation-card")].find(
-    element => element.dataset.observationKey === `${directObservation.subject}|${directObservation.systemSlug}`
-  );
-  if (card) {
-    card.classList.add("open");
-    const trigger = card.querySelector(".observation-card-trigger");
-    trigger.setAttribute("aria-expanded", "true");
-    requestAnimationFrame(() => {
-      trigger.focus({ preventScroll: true });
-      card.scrollIntoView({ block: "start", behavior: "instant" });
-    });
-  }
-}
-

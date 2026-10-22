@@ -1,0 +1,78 @@
+/*
+ * HIOBS Distribution Layer — ROLEX Immune prototype.
+ * This small stylesheet adds only share controls and styles for standalone
+ * observation pages. The existing styles.css is deliberately untouched.
+ */
+
+.observation-card .observation-share-region {
+  display: none;
+}
+
+.observation-card.open .observation-share-region {
+  display: flex;
+}
+
+.observation-share-region,
+.hiobs-detail-share {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.observation-share-button {
+  padding: 6px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  color: inherit;
+  font: 600 0.69rem var(--sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.observation-share-button:focus-visible,
+.hiobs-detail-return a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.observation-share-status {
+  font: 0.74rem/1.5 var(--sans);
+}
+
+/* The standalone page reuses the existing HIOBS card styling and palette. */
+.hiobs-detail-article.observation-card {
+  height: auto;
+  min-height: 0;
+  max-width: 720px;
+}
+
+.hiobs-detail-card-top {
+  min-height: 145px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hiobs-detail-article .observation-card-body {
+  display: block;
+}
+
+.hiobs-detail-share {
+  display: flex;
+}
+
+.hiobs-detail-return {
+  margin-top: 54px;
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+  padding-top: 24px;
+}
+
+.hiobs-detail-return a {
+  font: 600 0.76rem var(--sans);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
