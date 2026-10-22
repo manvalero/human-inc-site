@@ -2022,41 +2022,21 @@ body {
 
 /* =========================================================
    HIOBS DISTRIBUTION — ROLEX IMMUNE PROTOTYPE
+   Inherit the established HIOBS layout, labels, and Immune palette.
    ========================================================= */
-.hiobs-detail-page .hiobs-detail-header { padding-bottom: 48px; }
-.hiobs-detail-heading { margin-top: 76px; }
-.hiobs-detail-kicker {
-  margin: 0 0 28px;
-  font: 600 0.7rem var(--sans);
-  letter-spacing: 0.16em;
+.hiobs-detail-article.observation-card {
+  height: auto;
+  min-height: 0;
+  max-width: 720px;
 }
-.hiobs-detail-heading h1 {
-  margin: 0 0 6px;
-  font-size: clamp(3rem, 7vw, 5.5rem);
-  font-weight: 500;
-  line-height: 1.08;
+.hiobs-detail-card-top {
+  min-height: 145px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
 }
-.hiobs-detail-system {
-  margin: 0;
-  font: 600 0.82rem var(--sans);
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-.hiobs-detail-article {
-  background: var(--immune-bg);
-  color: var(--immune-text);
-  padding: clamp(28px, 6vw, 64px);
-  border-radius: 14px;
-}
-.hiobs-detail-observation {
-  margin: 0;
-  white-space: pre-line;
-  font: 1.15rem/1.78 var(--serif);
-  max-width: 66ch;
-}
-.hiobs-detail-article .observation-sources {
-  max-width: 66ch;
-  margin-top: 48px;
+.hiobs-detail-article .observation-card-body {
+  display: block;
 }
 .observation-share-region,
 .hiobs-detail-share {
@@ -2095,10 +2075,8 @@ body {
   text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
-.hiobs-detail-return a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
-.hiobs-grid { scroll-margin-top: 24px; }
-@media (max-width: 800px) {
-  .hiobs-detail-heading { margin-top: 58px; }
-  .hiobs-detail-page .hiobs-detail-header { padding-bottom: 36px; }
-  .hiobs-detail-observation { font-size: 1.05rem; }
+.hiobs-detail-return a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
 }
+.hiobs-grid { scroll-margin-top: 24px; }

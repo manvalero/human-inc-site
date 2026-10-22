@@ -35,10 +35,11 @@ function renderDetail(template,item,sourceRows){
  if(!item||!Array.isArray(sourceRows)||!sourceRows.length)throw new Error("Missing observation or source set");
  const subjectSlug=SUBJECT_SLUGS[item.subject]; if(!subjectSlug || !/^[a-z]+$/.test(item.systemSlug))throw new Error("Unknown slug");
  const u=`https://humanincpractice.com/observations/${subjectSlug}/${item.systemSlug}/`;
- const title=`${item.subject} — ${item.system} | Human Inc. Observations`;
+ const systemLabel = item.system.replace(/ System$/, "");
+ const title=`${item.subject} — ${systemLabel} | Human Inc. Observations`;
  const description=item.observation.split("\n\n")[0].split(/(?<=[.!?])\s/)[0];
  const sourceHtml=sourceRows.map(s=>`<li><a class="observation-source-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.title)}</a><span class="observation-source-meta">${escapeHtml(s.publisher)}${s.date?` · ${escapeHtml(s.date)}`:""}</span></li>`).join("\n          ");
- const tokens={"TITLE":title,"DESCRIPTION":description,"URL":u,"IMAGE":`https://humanincpractice.com/observations/assets/${subjectSlug}-${item.systemSlug}-og.png`,"IMAGE_ALT":`Human Inc. Observations — ${item.subject} — ${item.system} — HumanIncPractice.com`,"SUBJECT":item.subject,"SYSTEM":item.system,"SYSTEM_SLUG":item.systemSlug,"OBSERVATION":item.observation,"SOURCES":sourceHtml,"CORPUS_LINK":`../../../hiobs.html?subject=${encodeURIComponent(item.subject)}&amp;system=${encodeURIComponent(item.systemSlug)}`};
+ const tokens={"TITLE":title,"DESCRIPTION":description,"URL":u,"SUBJECT":item.subject,"SYSTEM_LABEL":systemLabel,"SYSTEM_SLUG":item.systemSlug,"OBSERVATION":item.observation,"SOURCES":sourceHtml,"CORPUS_LINK":`../../../hiobs.html?subject=${encodeURIComponent(item.subject)}&amp;system=${encodeURIComponent(item.systemSlug)}`};
  let output=template;
  for(const [key,value] of Object.entries(tokens)) output=output.replaceAll(`{{${key}}}`,key==="SOURCES"||key==="CORPUS_LINK"?value:escapeHtml(value));
  if(/\{\{[A-Z_]+\}\}/.test(output))throw new Error("Unresolved placeholders in observation page");
