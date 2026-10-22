@@ -1,0 +1,55 @@
+name: HIOBS crawler discovery validation
+on:
+  push:
+    branches: [feature/hiobs-crawler-discovery]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discoverability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preserve canonical site and reference observation
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main -- styles.css hiobs.js hiobs-data.js hiobs-sources.js
+          git diff --exit-code origin/main -- observation-distribution.js observation-share.js observation-distribution.css
+          git diff --exit-code origin/main -- observations/rolex/immune/index.html observations/assets/rolex-immune-og.png
+      - name: Generate public sitemap and static observation index
+        run: node scripts/build-hiobs-discovery.mjs
+      - name: Validate all 144 linked observations
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFileSync} from "node:fs";
+          import assert from "node:assert/strict";
+          const manifest=JSON.parse(readFileSync("scripts/hiobs-distribution-manifest.json","utf8"));
+          const index=readFileSync("observations/index.html","utf8");
+          const map=readFileSync("sitemap.xml","utf8");
+          const robots=readFileSync("robots.txt","utf8");
+          const page=readFileSync("hiobs.html","utf8");
+          for(const i of manifest.entries){
+            assert.ok(map.includes("<loc>"+i.url+"</loc>"));
+            assert.ok(index.includes('href="./'+i.subjectSlug+'/'+i.system+'/'));
+          }
+          assert.equal((index.match(/<li><a href=/g)||[]).length,144);
+          assert.equal((map.match(/<url><loc>/g)||[]).length,151);
+          assert.ok(robots.includes("Sitemap: https://humanincpractice.com/sitemap.xml"));
+          assert.ok(page.includes("<noscript>")&&page.includes('href="observations/"'));
+          console.log("PASS static links, sitemap, and non-JavaScript fallback");
+          NODE
+      - name: Commit generated files to review branch only
+        run: |
+          git add -- sitemap.xml robots.txt observations/index.html
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Generate HIOBS static directory and sitemap"
+            git push origin HEAD:refs/heads/feature/hiobs-crawler-discovery
+          fi
