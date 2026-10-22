@@ -1,0 +1,51 @@
+name: HIOBS sitemap-only integrity test
+on:
+  push:
+    branches:
+      - feature/hiobs-sitemap-only
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify this release changes only technical discovery files
+        run: |
+          git fetch origin main
+          unexpected=$(git diff --name-only origin/main...HEAD | grep -Ev '^(\.github/workflows/hiobs-sitemap-only.yml|scripts/build-hiobs-sitemap.mjs|sitemap.xml|robots.txt)$' || true)
+          if [ -n "$unexpected" ]; then
+            echo "Unexpected changes (would affect website integrity):"
+            echo "$unexpected"
+            exit 1
+          fi
+      - name: Rebuild sitemap from canonical public URLs and check deterministic output
+        run: |
+          node scripts/build-hiobs-sitemap.mjs
+          git diff --exit-code -- sitemap.xml robots.txt
+      - name: Verify sitemap has all 144 observation URLs and no presentation changes
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFileSync,existsSync} from "node:fs";
+          import assert from "node:assert/strict";
+          const manifest=JSON.parse(readFileSync("scripts/hiobs-distribution-manifest.json","utf8"));
+          const sitemap=readFileSync("sitemap.xml","utf8");
+          const robots=readFileSync("robots.txt","utf8");
+          assert.equal(manifest.entries.length,144);
+          for(const row of manifest.entries){
+            assert.ok(sitemap.includes("<loc>"+row.url+"</loc>"),row.url);
+            assert.ok(existsSync(row.path),row.path);
+          }
+          assert.equal((sitemap.match(/<url><loc>/g)||[]).length,151);
+          assert.equal(robots,"Sitemap: https://humanincpractice.com/sitemap.xml\n");
+          console.log("PASS: all 144 source-backed observation URLs remain discoverable");
+          NODE
