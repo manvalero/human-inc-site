@@ -59,9 +59,9 @@
   const subject = params.get("subject");
   const system = params.get("system");
 
-  // Invalid or incomplete links leave the ordinary website unchanged.
-  if (!subject || !system ||
-      !HIOBS_DATA.some(item => item.subject === subject && item.systemSlug === system)) {
+  // This first prototype only recognizes its own return link.
+  // Other requests preserve the unmodified default HIOBS behavior.
+  if (subject !== "ROLEX" || system !== "immune") {
     return;
   }
 
