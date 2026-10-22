@@ -79,7 +79,7 @@ try {
   await page.goto(BASE + "/observations/rolex/immune/", { waitUntil: "networkidle" });
   check((await page.title()) === "ROLEX — Immune | Human Inc. Observations",
     "Standalone title is correct");
-  check((await page.locator(".observation-system").innerText()).trim() === "Immune",
+  check((await page.locator(".observation-system").textContent()).trim() === "Immune",
     "Standalone visible label omits the word System");
   check((await page.locator(".observation-source-link").getAttribute("href")) === SOURCE,
     "Standalone public citation is preserved");
