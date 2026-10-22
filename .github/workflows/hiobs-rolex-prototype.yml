@@ -1,0 +1,44 @@
+name: HIOBS ROLEX Immune prototype tests
+
+on:
+  push:
+    branches:
+      - feature/hiobs-rolex-immune-prototype
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prototype:
+    name: Preserve HIOBS and test ROLEX share journey
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify original website files remain unchanged
+        run: |
+          git fetch origin main
+          git diff --exit-code origin/main -- styles.css hiobs.js hiobs-data.js hiobs-sources.js
+      - name: Rebuild ROLEX observation from unchanged canonical data
+        run: |
+          node scripts/build-hiobs.mjs
+          git diff --exit-code -- observations/rolex/immune/index.html
+      - name: Install Chromium for isolated browser tests
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test desktop and mobile journey
+        run: node tests/rolex-immune-browser.mjs
+      - name: Upload screenshots from tests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hiobs-rolex-prototype-screenshots
+          path: tests/artifacts/
+          if-no-files-found: ignore
