@@ -2018,3 +2018,87 @@ body {
   }
 
 }
+
+
+/* =========================================================
+   HIOBS DISTRIBUTION — ROLEX IMMUNE PROTOTYPE
+   ========================================================= */
+.hiobs-detail-page .hiobs-detail-header { padding-bottom: 48px; }
+.hiobs-detail-heading { margin-top: 76px; }
+.hiobs-detail-kicker {
+  margin: 0 0 28px;
+  font: 600 0.7rem var(--sans);
+  letter-spacing: 0.16em;
+}
+.hiobs-detail-heading h1 {
+  margin: 0 0 6px;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 500;
+  line-height: 1.08;
+}
+.hiobs-detail-system {
+  margin: 0;
+  font: 600 0.82rem var(--sans);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.hiobs-detail-article {
+  background: var(--immune-bg);
+  color: var(--immune-text);
+  padding: clamp(28px, 6vw, 64px);
+  border-radius: 14px;
+}
+.hiobs-detail-observation {
+  margin: 0;
+  white-space: pre-line;
+  font: 1.15rem/1.78 var(--serif);
+  max-width: 66ch;
+}
+.hiobs-detail-article .observation-sources {
+  max-width: 66ch;
+  margin-top: 48px;
+}
+.observation-share-region,
+.hiobs-detail-share {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32px;
+}
+.observation-share-button {
+  padding: 6px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  color: inherit;
+  font: 600 0.69rem var(--sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.observation-share-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.observation-share-status {
+  font: 0.74rem/1.5 var(--sans);
+}
+.hiobs-detail-return {
+  margin-top: 54px;
+  border-top: 1px solid rgba(38, 35, 31, 0.2);
+  padding-top: 24px;
+}
+.hiobs-detail-return a {
+  font: 600 0.76rem var(--sans);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.hiobs-detail-return a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.hiobs-grid { scroll-margin-top: 24px; }
+@media (max-width: 800px) {
+  .hiobs-detail-heading { margin-top: 58px; }
+  .hiobs-detail-page .hiobs-detail-header { padding-bottom: 36px; }
+  .hiobs-detail-observation { font-size: 1.05rem; }
+}

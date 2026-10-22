@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="{{URL}}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{URL}}">
+  <meta property="og:image" content="{{IMAGE}}">
+  <meta property="og:image:secure_url" content="{{IMAGE}}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{IMAGE_ALT}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITLE}}">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="{{IMAGE}}">
+  <meta name="twitter:image:alt" content="{{IMAGE_ALT}}">
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <main class="hiobs-page hiobs-detail-page">
+    <header class="hiobs-header hiobs-detail-header">
+      <div class="territory-topbar">
+        <nav class="territory-nav" aria-label="Human Inc.">
+          <a href="../../../index.html">HUMAN INC.</a>
+          <a href="../../../hisc.html">HISC</a>
+          <a href="../../../hiobs.html" class="active" aria-current="page">HIOBS</a>
+          <a href="../../../hiff.html">HIFF</a>
+        </nav>
+        <a class="territory-action" href="../../../contact.html?interest=conversation">CONTACT</a>
+      </div>
+      <div class="hiobs-detail-heading">
+        <p class="hiobs-detail-kicker">HUMAN INC. OBSERVATIONS</p>
+        <h1>{{SUBJECT}}</h1>
+        <p class="hiobs-detail-system">{{SYSTEM}}</p>
+      </div>
+    </header>
+    <article class="hiobs-detail-article system-{{SYSTEM_SLUG}}" aria-label="{{SUBJECT}} — {{SYSTEM}} observation">
+      <p class="hiobs-detail-observation">{{OBSERVATION}}</p>
+      <section class="observation-sources" aria-labelledby="hiobs-detail-sources-title">
+        <h2 class="observation-sources-title" id="hiobs-detail-sources-title">Sources</h2>
+        <ul class="observation-sources-list">
+          {{SOURCES}}
+        </ul>
+      </section>
+      <div class="hiobs-detail-share">
+        <button class="observation-share-button" id="observation-share" type="button" aria-label="Share {{SUBJECT}} {{SYSTEM}} observation">Copy link</button>
+        <span class="observation-share-status" aria-live="polite" id="observation-share-status"></span>
+      </div>
+    </article>
+    <div class="hiobs-detail-return">
+      <a href="{{CORPUS_LINK}}">View within HIOBS <span aria-hidden="true">→</span></a>
+    </div>
+    <footer class="territory-footer">
+      <nav class="territory-nav footer-nav" aria-label="Human Inc.">
+        <a href="../../../index.html">HUMAN INC.</a>
+        <a href="../../../hisc.html">HISC</a>
+        <a href="../../../hiobs.html" class="active" aria-current="page">HIOBS</a>
+        <a href="../../../hiff.html">HIFF</a>
+      </nav>
+      <a class="territory-action" href="../../../contact.html?interest=conversation">CONTACT</a>
+    </footer>
+    <div class="legal-footer">
+      <span>© 2026 Man Valero. All rights reserved.</span>
+      <nav class="legal-nav" aria-label="Legal">
+        <a href="../../../about.html">About</a>
+        <a href="../../../legal.html#privacy">Privacy</a>
+        <a href="../../../legal.html#terms">Terms</a>
+        <a href="../../../legal.html#intellectual-property">Intellectual Property</a>
+      </nav>
+    </div>
+  </main>
+  <script src="../../../observation-share.js"></script>
+  <script>
+    (() => {
+      const button = document.getElementById("observation-share");
+      const status = document.getElementById("observation-share-status");
+      if (!button || !window.HIOBSShare) return;
+      button.textContent = navigator.share ? "Share" : "Copy link";
+      button.addEventListener("click", () => HIOBSShare.share(
+        document.querySelector('link[rel="canonical"]').href,
+        document.title,
+        status
+      ));
+    })();
+  </script>
+</body>
+</html>
