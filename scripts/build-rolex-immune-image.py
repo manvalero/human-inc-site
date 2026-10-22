@@ -32,7 +32,7 @@ def spaced(text, x, y, size, spacing, family="bold"):
 
 spaced("HUMAN INC. OBSERVATIONS", 86, 65, 26, 2)
 draw.text((86, 225), "ROLEX", fill=ink, font=font("serif", 128))
-spaced("IMMUNE SYSTEM", 86, 389, 39, 4)
+spaced("IMMUNE", 86, 389, 39, 4)
 draw.line((86, 526, 1114, 526), fill="#cad7dc", width=2)
 spaced("HUMANINCPRACTICE.COM", 86, 550, 25, 2)
 image.quantize(colors=16).save(output, optimize=True)
