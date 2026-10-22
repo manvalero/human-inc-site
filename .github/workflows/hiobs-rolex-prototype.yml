@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   prototype:
@@ -29,6 +29,19 @@ jobs:
         run: |
           node scripts/build-hiobs.mjs
           git diff --exit-code -- observations/rolex/immune/index.html
+      - name: Generate ROLEX Immune preview using the existing website palette
+        run: |
+          python3 -m pip install --user Pillow==11.3.0
+          python3 scripts/build-rolex-immune-og.py
+      - name: Commit preview binary on isolated prototype branch only
+        run: |
+          git add -- observations/assets/rolex-immune-og.png
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Build approved ROLEX Immune social-preview PNG"
+            git push origin HEAD:refs/heads/feature/hiobs-rolex-immune-prototype
+          fi
       - name: Install Chromium for isolated browser tests
         run: |
           npm install --no-save playwright@1.56.1

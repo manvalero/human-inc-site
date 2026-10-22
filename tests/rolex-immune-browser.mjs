@@ -38,8 +38,15 @@ try {
     "Open Graph title exists in server-delivered HTML");
   check(html.includes('<meta property="og:url" content="' + SHARE_URL + '">'),
     "Open Graph URL is the approved individual permalink");
-  check(!html.includes("og:image") && !html.includes("twitter:image") && !html.includes("<img"),
-    "Static page contains no image metadata or image");
+  check(html.includes('property="og:image" content="https://humanincpractice.com/observations/assets/rolex-immune-og.png"') &&
+        html.includes('name="twitter:card" content="summary_large_image"'),
+    "The approved typographic preview appears in static social metadata");
+  const imageResponse = await fetch(BASE + "/observations/assets/rolex-immune-og.png");
+  check(imageResponse.ok && imageResponse.headers.get("content-type")?.startsWith("image/png"),
+    "Static server delivers the ROLEX preview PNG to social crawlers");
+  const imageBytes = new Uint8Array(await imageResponse.arrayBuffer());
+  check(imageBytes.length > 4000 && imageBytes.slice(0, 8).join(",") === "137,80,78,71,13,10,26,10",
+    "Preview asset has valid PNG signature and content");
   check(html.includes("Identity preserved through change.") && html.includes(SOURCE),
     "Canonical observation and source are present without JavaScript");
 
