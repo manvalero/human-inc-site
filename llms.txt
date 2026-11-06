@@ -1,0 +1,26 @@
+# Human Inc. Practice
+
+Human Inc. has three connected public areas: HISC (Structural Coherence), HIOBS (Observations), and HIFF (Fractal Frame).
+
+## Human Inc. Observations (HIOBS)
+
+HIOBS includes **144 public observations**, covering 12 real-world subjects across 12 structural systems. Each observation has its own HTML page containing its full published text and linked public references.
+
+- [Complete HIOBS archive, all 144 observation texts and source links](https://humanincpractice.com/observations/)
+- [Interactive HIOBS gallery](https://humanincpractice.com/hiobs.html)
+- [XML sitemap with all 144 individual observation pages](https://humanincpractice.com/sitemap.xml)
+
+The archive contains the full published wording and all public source references. Individual observation URLs use this pattern:
+
+`https://humanincpractice.com/observations/{subject}/{system}/`
+
+Subject slugs: `nasa`, `oxford-university`, `lego`, `2026-fifa-world-cup`, `sony`, `ikea`, `red-cross`, `grupo-bimbo`, `citigroup`, `wikipedia`, `siemens-ag`, `rolex`.
+
+System slugs: `nervous`, `circulatory`, `digestive`, `muscular`, `respiratory`, `sensory`, `integumentary`, `immune`, `skeletal`, `lymphatic`, `endocrine`, `reproductive`.
+
+## Canonical content and sources
+
+- Use the individual observation page for canonical text and references.
+- The complete HTML archive reproduces the same published text and public sources for all 144 observations.
+- Source links are evidence references and should not be treated as independently verified by the reader.
+- The interactive gallery requires JavaScript; the archive and individual observation pages do not.
