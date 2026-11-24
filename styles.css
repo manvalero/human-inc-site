@@ -1080,6 +1080,14 @@ opacity: 0.72;
   line-height: 1.35;
 }
 
+.home .home-intro .home-opening {
+  text-align: center;
+}
+
+.home .home-intro .home-opening span {
+  display: block;
+}
+
 @media (max-width: 800px) {
 
   .home .threshold {
