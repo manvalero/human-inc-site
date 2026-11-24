@@ -1108,49 +1108,42 @@ body {
   background-color: var(--canvas);
 
   background-image:
-    /* soft tonal field */
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.06) 0%,
-      rgba(255, 255, 255, 0.00) 18%,
-      rgba(96, 78, 58, 0.018) 100%
-    ),
 
-    /* primary fiber direction */
+    /* fine horizontal fibers */
     repeating-linear-gradient(
-      12deg,
-      rgba(118, 96, 73, 0.018) 0px,
-      rgba(118, 96, 73, 0.018) 1px,
+      0deg,
+      rgba(106, 88, 68, 0.020) 0px,
+      rgba(106, 88, 68, 0.020) 1px,
       transparent 1px,
-      transparent 7px,
-      rgba(118, 96, 73, 0.009) 7px,
-      rgba(118, 96, 73, 0.009) 8px,
-      transparent 8px,
-      transparent 16px
+      transparent 4px,
+      rgba(106, 88, 68, 0.012) 4px,
+      rgba(106, 88, 68, 0.012) 5px,
+      transparent 5px,
+      transparent 9px
     ),
 
-    /* counter-fiber direction */
+    /* fine vertical fibers */
     repeating-linear-gradient(
-      102deg,
-      rgba(118, 96, 73, 0.014) 0px,
-      rgba(118, 96, 73, 0.014) 1px,
+      90deg,
+      rgba(106, 88, 68, 0.017) 0px,
+      rgba(106, 88, 68, 0.017) 1px,
       transparent 1px,
-      transparent 9px,
-      rgba(118, 96, 73, 0.007) 9px,
-      rgba(118, 96, 73, 0.007) 10px,
-      transparent 10px,
-      transparent 19px
+      transparent 5px,
+      rgba(106, 88, 68, 0.010) 5px,
+      rgba(106, 88, 68, 0.010) 6px,
+      transparent 6px,
+      transparent 11px
     ),
 
-    /* irregular broken threads */
+    /* slight irregularity so it does not read as a grid */
     repeating-linear-gradient(
-      -28deg,
+      2deg,
       transparent 0px,
-      transparent 14px,
-      rgba(140, 116, 88, 0.008) 14px,
-      rgba(140, 116, 88, 0.008) 15px,
       transparent 15px,
-      transparent 30px
+      rgba(125, 103, 78, 0.010) 15px,
+      rgba(125, 103, 78, 0.010) 16px,
+      transparent 16px,
+      transparent 31px
     );
 }
 /* =========================================================
